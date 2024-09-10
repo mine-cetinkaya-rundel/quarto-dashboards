@@ -1,0 +1,198 @@
+---
+title: "Quarto Dashboards<br>Theming and styling"
+footer: "[quarto.org](https://quarto.org/)"
+logo: "images/quarto-logo.png"
+format:
+  revealjs:
+    theme: ../style/slides.scss
+    transition: fade
+    slide-number: true
+---
+
+# Theming
+
+## Bootswatch themes {.smaller auto-animate="true"}
+
+Quarto dashboards can be styled with one of the 25 themes from the Bootswatch project:
+
+::: {data-id="code"}
+``` {.yaml filename="dashboard-r.qmd" code-line-numbers="|3-5"}
+{{< include _bootswatch.qmd >}}
+```
+:::
+
+## Bootswatch themes {.smaller auto-animate="true"}
+
+::: columns
+::: {.column width="40%"}
+::: {data-id="code"}
+``` {.yaml filename="dashboard-r.qmd" code-line-numbers="3-5"}
+{{< include _bootswatch.qmd >}}
+```
+:::
+:::
+
+::: {.column width="60%"}
+![](images/bootswatch.png)
+:::
+:::
+
+## Bootswatch themes
+
+::: {.large .center-align}
+<https://bootswatch.com>
+:::
+
+```{=html}
+<iframe src="https://bootswatch.com" title = "Bootswatch themes" frameborder="1" height="500" width="1000"></iframe>
+```
+## Light and dark mode {.smaller auto-animate="true"}
+
+You can provide a light and dark theme and Quarto will automatically place a light/dark toggle on the navbar:
+
+::: {data-id="code"}
+``` {.yaml filename="dashboard-r.qmd" code-line-numbers="|3-7"}
+{{< include _light-dark.qmd >}}
+```
+:::
+
+## Light mode {.smaller auto-animate="true"}
+
+::: columns
+::: {.column width="40%"}
+::: {data-id="code"}
+``` {.yaml filename="dashboard-r.qmd" code-line-numbers="6"}
+{{< include _light-dark.qmd >}}
+```
+:::
+:::
+
+::: {.column width="60%"}
+![](images/light.png)
+:::
+:::
+
+## Dark mode {.smaller auto-animate="true"}
+
+::: columns
+::: {.column width="40%"}
+::: {data-id="code"}
+``` {.yaml filename="dashboard-r.qmd" code-line-numbers="7"}
+{{< include _light-dark.qmd >}}
+```
+:::
+:::
+
+::: {.column width="60%"}
+![](images/dark.png)
+:::
+:::
+
+## Custom themes
+
+::: incremental
+-   You can create an entirely custom theme and apply it to your dashboard:
+
+    ``` yaml
+    format:
+      theme: style.scss
+    ```
+
+-   Or you can customize an existing Bootswatch theme:
+
+    ``` yaml
+    format:
+      theme:
+        - cosmo
+        - custom.scss
+    ```
+:::
+
+## Custom light SCSS {.smaller auto-animate="true"}
+
+::: columns
+::: {.column width="40%"}
+::: {data-id="code"}
+``` {.yaml filename="dashboard-r.qmd" code-line-numbers="|3-5"}
+{{< include _custom-light.qmd >}}
+```
+:::
+:::
+
+::: {.column width="60%"}
+![](images/custom-light.png)
+:::
+:::
+
+## Custom light SCSS {.smaller}
+
+``` {.yaml filename="dashboard-r.qmd" code-line-numbers="|1-7|9-12|14-19"}
+{{< include _custom-light.scss >}}
+```
+
+## Customizing Bootswatch themes
+
+::: columns
+::: {.column width="40%"}
+::: {data-id="code"}
+``` {.yaml filename="dashboard-r.qmd" code-line-numbers="|5-7"}
+{{< include _custom-sandstone.qmd >}}
+```
+:::
+:::
+
+::: {.column width="60%"}
+![](images/sandstone-custom-light.png)
+:::
+:::
+
+# Styling
+
+## A unified look
+
+::: incremental
+-   Achieving a unified look for your dashboard requires customizing your dashboard along with your plots and tables
+
+-   Choose colors thare complementary and visually appealing (at least to you) bu also following accessbility best practices
+
+-   Stick to pre-defined, accessible color scales where possible
+:::
+
+## Learn more: Theming Quarto
+
+A lot more to learn on theming all things Quarto!
+
+```{=html}
+<iframe src="https://quarto.org/docs/dashboards/theming.html" title = "Bootswatch themes" frameborder="1" height="500" width="1000"></iframe>
+```
+# Let's build!
+
+## 🏁 Start {.smaller}
+
+Clone the GitHub repo `mine-cetinkaya-rundel/olympicdash` (<https://github.com/mine-cetinkaya-rundel/olympicdash>) and work on...
+
+::: r-box
+`olympicdash-r-3.qmd`
+:::
+
+::: python-box
+`olympicdash-py-3.qmd`
+:::
+
+## 🎯 Goal
+
+Your goal is to create one of the following dashboards, and then deploy to QuartoPub.
+
+::: columns
+::: column
+::: r-box
+![](images/olympicdash-r-3.png)
+:::
+:::
+
+::: column
+::: python-box
+![](images/olympicdash-py-3.png)
+:::
+:::
+:::

@@ -1,0 +1,587 @@
+---
+title: "Hello,<br>Quarto Dashboards!"
+footer: "[quarto.org](https://quarto.org/)"
+logo: "images/quarto-logo.png"
+format:
+  revealjs:
+    theme: ../style/slides.scss
+    transition: fade
+    slide-number: true
+---
+
+# Hello, Dashboards!
+
+## Quarto
+
+-   is a (relatively) new, open-source, scientific, and technical publishing system
+-   aims to make the process of creating and collaborating dramatically better
+
+## Quarto ➝ many outputs {background-image="images/quarto-to-docs.png"}
+
+With Quarto you can weave together narrative text and code to produce elegantly formatted output as documents, web pages, blog posts, books, and more...
+
+## Quarto ➝ dashboards {background-image="images/quarto-to-dashboard.png"}
+
+Since Quarto 1.4!
+
+## Quarto version
+
+::: callout-tip
+Run the following in your Terminal to find your Quarto version:
+
+``` {.bash filename="Terminal"}
+quarto --version
+```
+:::
+
+##  {.no-line background-image="images/dashboards/customer-churn.png" background-size="contain"}
+
+##  {.no-line background-image="images/dashboards/dashing-through-snow.png" background-size="contain"}
+
+##  {.no-line background-image="images/dashboards/earthquakes.png" background-size="contain"}
+
+##  {.no-line background-image="images/dashboards/gapminder.png" background-size="contain"}
+
+##  {.no-line background-image="images/dashboards/housing-market.png" background-size="contain"}
+
+##  {.no-line background-image="images/dashboards/labor.png" background-size="contain"}
+
+##  {.no-line background-image="images/dashboards/model-card.png" background-size="contain"}
+
+##  {.no-line background-image="images/dashboards/mynorfolk.png" background-size="contain"}
+
+##  {.no-line background-image="images/dashboards/nfl-injuries.png" background-size="contain"}
+
+##  {.no-line background-image="images/dashboards/retirement.png" background-size="contain"}
+
+##  {.no-line background-image="images/dashboards/shiny-penguins.png" background-size="contain"}
+
+##  {.no-line background-image="images/dashboards/stock-explorer.png" background-size="contain"}
+
+## Olympic Games dashboard - R {.smaller}
+
+::: r-box
+🔗 [mine.quarto.pub/olympic-games-r](https://mine.quarto.pub/olympic-games-r/)
+:::
+
+```{=html}
+<iframe src="https://mine.quarto.pub/olympic-games-r/" title = "Olympic Games dashboard" frameborder="1" height="575" width="1200"></iframe>
+```
+## Olympic Games dashboard - Python {.smaller}
+
+::: python-box
+🔗 [mine.quarto.pub/olympic-games-py](https://mine.quarto.pub/olympic-games-py/)
+:::
+
+```{=html}
+<iframe src="https://mine.quarto.pub/olympic-games-py/" title = "Olympic Games dashboard" frameborder="1" height="575" width="1200"></iframe>
+```
+## Notebook ➝ Dashboard
+
+::: r-box
+``` {.markdown filename="olympicdash-r.qmd" style="overflow-y: hidden" code-line-numbers="|3"}
+---
+title: "Olympic Games"
+format: dashboard
+---
+
+# notebook content goes here...
+```
+:::
+
+::: python-box
+``` {.markdown filename="olympicdash-py.qmd" style="overflow-y: hidden" code-line-numbers="|3"}
+---
+title: "Olympic Games"
+format: dashboard
+---
+
+# notebook content goes here...
+```
+:::
+
+# Dashboard basics
+
+## Cards {auto-animate="true" auto-animate-easing="ease-in-out"}
+
+Dashboards are composed of **cards**.
+
+::: r-hstack
+::: {data-id="box1" auto-animate-delay="0" style="background: #72994E; width: 200px; height: 150px; margin: 10px; border: 3px solid #57733D;"}
+:::
+
+::: {data-id="box2" auto-animate-delay="0.1" style="background: #F2F2F2; width: 200px; height: 150px; margin: 10px; border: 3px solid #C2C2C4;"}
+:::
+
+::: {data-id="box3" auto-animate-delay="0.2" style="background: #419599; width: 200px; height: 150px; margin: 10px; border: 3px solid #297075;"}
+:::
+:::
+
+## Rows and columns {auto-animate="true" auto-animate-easing="ease-in-out"}
+
+Cards are arranged into **rows** and **columns**.
+
+::: r-stack
+::: {data-id="box1" auto-animate-delay="0" style="background: #72994E; width: 235px; height: 145px; margin-top: 30px; position: absolute; left: 275px; border: 3px solid #57733D;"}
+:::
+
+::: {data-id="box2" style="background: #F2F2F2; width: 235px; height: 145px; margin-top: 30px; position: absolute; right: 275px; border: 3px solid #C2C2C4;"}
+:::
+
+::: {data-id="box3" style="background: #419599; width: 500px; height: 300px; margin-top: 200px; border: 3px solid #297075;"}
+:::
+:::
+
+## Layouts {auto-animate="true" auto-animate-easing="ease-in-out"}
+
+**Pages**, **tabsets**, and **sidebars** allow for more advanced layouts.
+
+::: r-stack
+::: {data-id="box1" auto-animate-delay="0" style="background: #72994E; width: 235px; height: 145px; margin-top: 30px; position: absolute; left: 275px; border: 3px solid #57733D;"}
+:::
+
+::: {data-id="box2" style="background: #F2F2F2; width: 235px; height: 145px; margin-top: 30px; position: absolute; right: 275px; border: 3px solid #C2C2C4;"}
+:::
+
+::: {data-id="box3" style="background: #419599; width: 500px; height: 300px; margin-top: 200px; border: 3px solid #297075;"}
+:::
+
+::: {data-id="box4" auto-animate-delay="0" style="background: #DFB33E; width: 150px; height: 470px; margin-top: 30px; position: absolute; right: 800px; border: 3px solid #9a771a;"}
+:::
+:::
+
+## Step-by-step
+
+Let's make a dashboard, step-by-step
+
+-   First with R
+
+-   Then with Python
+
+# First dashboard in R
+
+## Step 1: `format: dashboard` {auto-animate="true"}
+
+::: r-box
+``` {.yaml filename="dashboard-r.qmd"}
+---
+title: "My first Quarto dashboard"
+format: dashboard
+---
+```
+:::
+
+## Step 2: Add a card {auto-animate="true"}
+
+::: r-box
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="|10-13"}
+---
+title: "My first Quarto dashboard"
+format: dashboard
+---
+
+```{{r}}
+library(ggplot2)
+```
+
+```{{r}}
+ggplot(mpg, aes(x = cty, y = hwy)) +
+  geom_point()
+```
+````
+:::
+
+## Step 2: Add a card {.smaller auto-animate="true"}
+
+::: columns
+::: {.column width="40%"}
+::: r-box
+```` {.yaml filename="dashboard-r.qmd"}
+---
+title: "My first Quarto dashboard"
+format: dashboard
+---
+
+```{{r}}
+library(ggplot2)
+```
+
+```{{r}}
+ggplot(mpg, aes(x = cty, y = hwy)) +
+  geom_point()
+```
+````
+:::
+:::
+
+::: {.column width="60%"}
+![](images/first-dashboard-r-1.png)
+:::
+:::
+
+## Step 3: Add another card {auto-animate="true"}
+
+::: r-box
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="|15-18"}
+---
+title: "My first Quarto dashboard"
+format: dashboard
+---
+
+```{{r}}
+library(ggplot2)
+```
+
+```{{r}}
+ggplot(mpg, aes(x = cty, y = hwy)) +
+  geom_point()
+```
+
+```{{r}}
+ggplot(mpg, aes(x = drv)) +
+  geom_bar()
+```
+````
+:::
+
+## Step 3: Add another card {.smaller auto-animate="true"}
+
+::: columns
+::: {.column width="40%"}
+::: r-box
+```` {.yaml filename="dashboard-r.qmd"}
+---
+title: "My first Quarto dashboard"
+format: dashboard
+---
+
+```{{r}}
+library(ggplot2)
+```
+
+```{{r}}
+ggplot(mpg, aes(x = cty, y = hwy)) +
+  geom_point()
+```
+
+```{{r}}
+ggplot(mpg, aes(x = drv)) +
+  geom_bar()
+```
+````
+:::
+:::
+
+::: {.column width="60%"}
+![](images/first-dashboard-r-2.png)
+:::
+:::
+
+## Step 4: Add titles to cards {auto-animate="true"}
+
+::: r-box
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="|11,17"}
+---
+title: "My first Quarto dashboard"
+format: dashboard
+---
+
+```{{r}}
+library(ggplot2)
+```
+
+```{{r}}
+#| title: Highway vs. city mileage
+ggplot(mpg, aes(x = cty, y = hwy)) +
+  geom_point()
+```
+
+```{{r}}
+#| title: Drive types
+ggplot(mpg, aes(x = drv)) +
+  geom_bar()
+```
+````
+:::
+
+## Step 4: Add titles to cards {.smaller auto-animate="true"}
+
+::: columns
+::: {.column width="40%"}
+::: r-box
+```` {.yaml filename="dashboard-r.qmd"}
+---
+title: "My first Quarto dashboard"
+format: dashboard
+---
+
+```{{r}}
+library(ggplot2)
+```
+
+```{{r}}
+#| title: Highway vs. city mileage
+ggplot(mpg, aes(x = cty, y = hwy)) +
+  geom_point()
+```
+
+```{{r}}
+#| title: Drive types
+ggplot(mpg, aes(x = drv)) +
+  geom_bar()
+```
+````
+:::
+:::
+
+::: {.column width="60%"}
+![](images/first-dashboard-r-3.png)
+:::
+:::
+
+## Steps 1 - 4 {auto-animate="true"}
+
+![](images/first-dashboard-r-3.png){fig-align="center"}
+
+# First dashboard in Python
+
+## Step 1: `format: dashboard` {auto-animate="true"}
+
+::: python-box
+``` {.yaml filename="dashboard-py.qmd"}
+---
+title: "My first Quarto dashboard"
+format: dashboard
+---
+```
+:::
+
+## Step 2: Add a card {auto-animate="true"}
+
+::: python-box
+```` {.yaml filename="dashboard-py.qmd" code-line-numbers="|10-16"}
+---
+title: "My first Quarto dashboard"
+format: dashboard
+---
+
+```{{python}}
+from plotnine import ggplot, aes, geom_point
+from plotnine.data import mpg
+```
+
+```{{python}}
+(
+    ggplot(mpg, aes(x = "cty", y = "hwy"))
+    + geom_point()
+)
+```
+````
+:::
+
+## Step 2: Add a card {.smaller auto-animate="true"}
+
+::: columns
+::: {.column width="40%"}
+::: python-box
+```` {.yaml filename="dashboard-py.qmd"}
+---
+title: "My first Quarto dashboard"
+format: dashboard
+---
+
+```{{python}}
+from plotnine import ggplot, aes, geom_point
+from plotnine.data import mpg
+```
+
+```{{python}}
+(
+    ggplot(mpg, aes(x = "cty", y = "hwy"))
+    + geom_point()
+)
+```
+````
+:::
+:::
+
+::: {.column width="60%"}
+![](images/first-dashboard-py-1.png)
+:::
+:::
+
+## Step 3: Add another card {auto-animate="true"}
+
+::: python-box
+```` {.yaml filename="dashboard-py.qmd" code-line-numbers="|18-23"}
+---
+title: "My first Quarto dashboard"
+format: dashboard
+---
+
+```{{python}}
+from plotnine import ggplot, aes, geom_point, geom_bar
+from plotnine.data import mpg
+```
+
+```{{python}}
+(
+    ggplot(mpg, aes(x = "cty", y = "hwy"))
+    + geom_point()
+)
+```
+
+```{{python}}
+(
+    ggplot(mpg, aes(x = "drv"))
+    + geom_bar()
+)
+```
+````
+:::
+
+## Step 3: Add another card {.smaller auto-animate="true"}
+
+::: columns
+::: {.column width="40%"}
+::: python-box
+```` {.yaml filename="dashboard-py.qmd"}
+---
+title: "My first Quarto dashboard"
+format: dashboard
+---
+
+```{{python}}
+from plotnine import ggplot, aes, geom_point, geom_bar
+from plotnine.data import mpg
+```
+
+```{{python}}
+(
+    ggplot(mpg, aes(x = "cty", y = "hwy"))
+    + geom_point()
+)
+```
+
+```{{python}}
+(
+    ggplot(mpg, aes(x = "drv"))
+    + geom_bar()
+)
+```
+````
+:::
+:::
+
+::: {.column width="60%"}
+![](images/first-dashboard-py-2.png)
+:::
+:::
+
+## Step 4: Add titles to cards {auto-animate="true"}
+
+::: python-box
+```` {.yaml filename="dashboard-py.qmd" code-line-numbers="|12,20"}
+---
+title: "My first Quarto dashboard"
+format: dashboard
+---
+
+```{{python}}
+from plotnine import ggplot, aes, geom_point, geom_bar
+from plotnine.data import mpg
+```
+
+```{{python}}
+#| title: Highway vs. city mileage
+(
+    ggplot(mpg, aes(x = "cty", y = "hwy"))
+    + geom_point()
+)
+```
+
+```{{python}}
+#| title: Drive types
+(
+    ggplot(mpg, aes(x = "drv"))
+    + geom_bar()
+)
+```
+````
+:::
+
+## Step 4: Add titles to cards {.smaller auto-animate="true"}
+
+::: columns
+::: {.column width="40%"}
+::: python-box
+```` {.yaml filename="dashboard-py.qmd"}
+---
+title: "My first Quarto dashboard"
+format: dashboard
+---
+
+```{{python}}
+from plotnine import ggplot, aes, geom_point, geom_bar
+from plotnine.data import mpg
+```
+
+```{{python}}
+#| title: Highway vs. city mileage
+(
+    ggplot(mpg, aes(x = "cty", y = "hwy"))
+    + geom_point()
+)
+```
+
+```{{python}}
+#| title: Drive types
+(
+    ggplot(mpg, aes(x = "drv"))
+    + geom_bar()
+)
+```
+````
+:::
+:::
+
+::: {.column width="60%"}
+![](images/first-dashboard-py-3.png)
+:::
+:::
+
+## Steps 1 - 4 {auto-animate="true"}
+
+![](images/first-dashboard-py-3.png){fig-align="center"}
+
+# Let's build!
+
+## 🏁 Start {.smaller}
+
+Clone the GitHub repo `mine-cetinkaya-rundel/olympicdash` (<https://github.com/mine-cetinkaya-rundel/olympicdash>) and work on...
+
+::: r-box
+`olympicdash-r-1.qmd`
+:::
+
+::: python-box
+`olympicdash-py-1.qmd`
+:::
+
+## 🎯 Goal
+
+Your goal is to create one of the following dashboards, and then deploy to QuartoPub.
+
+::: columns
+::: column
+::: r-box
+![](images/olympicdash-r-1.png)
+:::
+:::
+
+::: column
+::: python-box
+![](images/olympicdash-py-1.png)
+:::
+:::
+:::
