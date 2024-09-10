@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: aa6d8da0-7243-4bcb-a126-3d28ad7ac840
+      url: 'https://mine.quarto.pub/quarto-dashboards'

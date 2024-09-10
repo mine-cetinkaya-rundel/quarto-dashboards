@@ -45,9 +45,9 @@ The content of cards typically maps to *cells* in your notebook or source docume
 ## Pages {auto-animate="true"}
 
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="|10,18"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="|10,18"}
 {{< include _pages.qmd >}}
-```
+````
 :::
 
 ## Pages {.smaller auto-animate="true"}
@@ -55,9 +55,9 @@ The content of cards typically maps to *cells* in your notebook or source docume
 ::: columns
 ::: {.column width="40%"}
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="10"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="10"}
 {{< include _pages.qmd >}}
-```
+````
 :::
 :::
 
@@ -71,9 +71,9 @@ The content of cards typically maps to *cells* in your notebook or source docume
 ::: columns
 ::: {.column width="40%"}
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="18"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="18"}
 {{< include _pages.qmd >}}
-```
+````
 :::
 :::
 
@@ -85,9 +85,9 @@ The content of cards typically maps to *cells* in your notebook or source docume
 ## Logo {auto-animate="true"}
 
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="|3-5"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="|3-5"}
 {{< include _logo.qmd >}}
-```
+````
 :::
 
 ## Logo {.smaller auto-animate="true"}
@@ -95,9 +95,9 @@ The content of cards typically maps to *cells* in your notebook or source docume
 ::: columns
 ::: {.column width="40%"}
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="3-5"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="3-5"}
 {{< include _logo.qmd >}}
-```
+````
 :::
 :::
 
@@ -109,9 +109,9 @@ The content of cards typically maps to *cells* in your notebook or source docume
 ## Navigation buttons {auto-animate="true"}
 
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="|6-15"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="|6-15"}
 {{< include _nav-buttons.qmd >}}
-```
+````
 :::
 
 ## Navigation buttons {.smaller auto-animate="true"}
@@ -119,9 +119,9 @@ The content of cards typically maps to *cells* in your notebook or source docume
 ::: columns
 ::: {.column width="40%"}
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="6-15"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="6-15"}
 {{< include _nav-buttons.qmd >}}
-```
+````
 :::
 :::
 
@@ -135,9 +135,9 @@ The content of cards typically maps to *cells* in your notebook or source docume
 Special aliases are recognized for certain navigation buttons: `linkedin`, `facebook`, `reddit`, `twitter`, and `github`.
 
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="|6-7"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="|6-7"}
 {{< include _nav-buttons-alternative.qmd >}}
-```
+````
 :::
 
 # Sidebars, rows, columns, and tabsets
@@ -151,9 +151,9 @@ Special aliases are recognized for certain navigation buttons: `linkedin`, `face
 ## Sidebars - Global {auto-animate="true"}
 
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="|22-24"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="|22-24"}
 {{< include _sidebar-global.qmd >}}
-```
+````
 :::
 
 ## Sidebars - Global {.smaller auto-animate="true"}
@@ -161,9 +161,9 @@ Special aliases are recognized for certain navigation buttons: `linkedin`, `face
 ::: columns
 ::: {.column width="40%"}
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="22-24"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="22-24"}
 {{< include _sidebar-global.qmd >}}
-```
+````
 :::
 :::
 
@@ -177,9 +177,9 @@ Special aliases are recognized for certain navigation buttons: `linkedin`, `face
 ::: columns
 ::: {.column width="40%"}
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="22-24"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="22-24"}
 {{< include _sidebar-global.qmd >}}
-```
+````
 :::
 :::
 
@@ -191,9 +191,9 @@ Special aliases are recognized for certain navigation buttons: `linkedin`, `face
 ## Sidebars - Page {auto-animate="true"}
 
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="|22-28"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="|22-28"}
 {{< include _sidebar-page.qmd >}}
-```
+````
 :::
 
 ## Sidebars - Page {.smaller auto-animate="true"}
@@ -201,9 +201,9 @@ Special aliases are recognized for certain navigation buttons: `linkedin`, `face
 ::: columns
 ::: {.column width="40%"}
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="22-28"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="22-28"}
 {{< include _sidebar-page.qmd >}}
-```
+````
 :::
 :::
 
@@ -217,9 +217,9 @@ Special aliases are recognized for certain navigation buttons: `linkedin`, `face
 ::: columns
 ::: {.column width="40%"}
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="22-28"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="22-28"}
 {{< include _sidebar-page.qmd >}}
-```
+````
 :::
 :::
 
@@ -233,9 +233,9 @@ Special aliases are recognized for certain navigation buttons: `linkedin`, `face
 By default, cards are laid out in rows:
 
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="|12,20"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="|12,20"}
 {{< include _rows.qmd >}}
-```
+````
 :::
 
 ## Rows {.smaller auto-animate="true"}
@@ -243,9 +243,9 @@ By default, cards are laid out in rows:
 ::: columns
 ::: {.column width="40%"}
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="12,20"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="12,20"}
 {{< include _rows.qmd >}}
-```
+````
 :::
 :::
 
@@ -259,9 +259,9 @@ By default, cards are laid out in rows:
 Default value of `orientation` is `rows`:
 
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="4-5"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="4-5"}
 {{< include _rows-orientation.qmd >}}
-```
+````
 :::
 
 ## Columns {auto-animate="true"}
@@ -269,9 +269,9 @@ Default value of `orientation` is `rows`:
 Setting `orientation` to `columns` makes each `##` indicate a column instead of a row:
 
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="4-5"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="4-5"}
 {{< include _columns.qmd >}}
-```
+````
 :::
 
 ## Columns {.smaller auto-animate="true"}
@@ -279,9 +279,9 @@ Setting `orientation` to `columns` makes each `##` indicate a column instead of 
 ::: columns
 ::: {.column width="40%"}
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="4-5,13,21"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="4-5,13,21"}
 {{< include _columns.qmd >}}
-```
+````
 :::
 :::
 
@@ -293,9 +293,9 @@ Setting `orientation` to `columns` makes each `##` indicate a column instead of 
 ## Rows, then columns {auto-animate="true"}
 
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="|12-22|24-40"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="|12-22|24-40"}
 {{< include _rows-then-columns.qmd >}}
-```
+````
 :::
 
 ## Rows, then columns {.smaller auto-animate="true"}
@@ -303,9 +303,9 @@ Setting `orientation` to `columns` makes each `##` indicate a column instead of 
 ::: columns
 ::: {.column width="40%"}
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="12,14,18,24,26,34"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="12,14,18,24,26,34"}
 {{< include _rows-then-columns.qmd >}}
-```
+````
 :::
 :::
 
@@ -317,9 +317,9 @@ Setting `orientation` to `columns` makes each `##` indicate a column instead of 
 ## Columns, then rows {auto-animate="true"}
 
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="|5|12-22|24-40"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="|5|12-22|24-40"}
 {{< include _columns-then-rows.qmd >}}
-```
+````
 :::
 
 ## Columns, then rows {.smaller auto-animate="true"}
@@ -327,9 +327,9 @@ Setting `orientation` to `columns` makes each `##` indicate a column instead of 
 ::: columns
 ::: {.column width="40%"}
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="5"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="5"}
 {{< include _columns-then-rows.qmd >}}
-```
+````
 :::
 :::
 
@@ -341,9 +341,9 @@ Setting `orientation` to `columns` makes each `##` indicate a column instead of 
 ## Heights and widths of rows and columns {auto-animate="true"}
 
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="|12,24|14,18|26,34"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="|12,24|14,18|26,34"}
 {{< include _rows-then-columns-height-width.qmd >}}
-```
+````
 :::
 
 ## Heights and widths of rows and columns {.smaller auto-animate="true"}
@@ -351,9 +351,9 @@ Setting `orientation` to `columns` makes each `##` indicate a column instead of 
 ::: columns
 ::: {.column width="40%"}
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="12,24,14,18,26,34"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="12,24,14,18,26,34"}
 {{< include _rows-then-columns-height-width.qmd >}}
-```
+````
 :::
 :::
 
@@ -371,11 +371,11 @@ Setting `orientation` to `columns` makes each `##` indicate a column instead of 
 
 -   If the default behavior is not what you want, you can explicitly specify filling or flowing behavior using the `.fill` and `.flow` classes applied to a row.
 
-    ``` {.yaml filename="dashboard-r.qmd"}
+    ```` {.yaml filename="dashboard-r.qmd"}
     ## Row {.fill}
 
     ## Row {.flow}
-    ```
+    ````
 :::
 
 ## `scrolling`
@@ -401,16 +401,16 @@ This option is handy for adding more rows of cards to a dashboard, however sprea
 
 `orientation` and `scrolling` can be provided at the dashboard or page level:
 
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="|12|24"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="|12|24"}
 {{< include _per-page-controls.qmd >}}
-```
+````
 
 ## Tabsets {auto-animate="true"}
 
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="|12|24"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="|12|24"}
 {{< include _tabsets.qmd >}}
-```
+````
 :::
 
 ## Tabsets {.smaller auto-animate="true"}
@@ -420,9 +420,9 @@ Each card within a row/column or each row/column within another becomes a tab:
 ::: columns
 ::: {.column width="40%"}
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="12,24"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="12,24"}
 {{< include _tabsets.qmd >}}
-```
+````
 :::
 :::
 
@@ -456,9 +456,9 @@ Each card within a row/column or each row/column within another becomes a tab:
 Card titles can be provided as a cell option or within a `cat()` (R) or `print()` (Python) statement:
 
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="|13|19-21"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="|13|19-21"}
 {{< include _card-titles.qmd >}}
-```
+````
 :::
 
 ## Card titles {.smaller auto-animate="true"}
@@ -466,9 +466,9 @@ Card titles can be provided as a cell option or within a `cat()` (R) or `print()
 ::: columns
 ::: {.column width="40%"}
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="13,19-21"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="13,19-21"}
 {{< include _card-titles.qmd >}}
-```
+````
 :::
 :::
 
@@ -523,9 +523,9 @@ d.
 If a cell generates multiple outputs, they get wrapped in a single cell:
 
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="|14-15|17-18"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="|14-15|17-18"}
 {{< include _card-multiple-outputs-r.qmd >}}
-```
+````
 :::
 
 ## Multiple outputs {.smaller auto-animate="true"}
@@ -533,9 +533,9 @@ If a cell generates multiple outputs, they get wrapped in a single cell:
 ::: columns
 ::: {.column width="40%"}
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="14-15,17-18"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="14-15,17-18"}
 {{< include _card-multiple-outputs-r.qmd >}}
-```
+````
 :::
 :::
 
@@ -549,9 +549,9 @@ If a cell generates multiple outputs, they get wrapped in a single cell:
 You can control layout of multiple outputs with `layout-ncol`:
 
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="|14"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="|14"}
 {{< include _card-multiple-output-layout-r.qmd >}}
-```
+````
 :::
 
 ## Multiple output layout {.smaller auto-animate="true"}
@@ -559,9 +559,9 @@ You can control layout of multiple outputs with `layout-ncol`:
 ::: columns
 ::: {.column width="40%"}
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="14"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="14"}
 {{< include _card-multiple-output-layout-r.qmd >}}
-```
+````
 :::
 :::
 
@@ -595,9 +595,9 @@ You can control layout of multiple outputs with `layout-ncol`:
 
 ::: {data-id="code"}
 ::: r-box
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="|11|13-28|30-38|40-48|50-54|56"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="|11|13-28|30-38|40-48|50-54|56"}
 {{< include _valueboxes-r.qmd >}}
-```
+````
 :::
 :::
 
@@ -607,9 +607,9 @@ You can control layout of multiple outputs with `layout-ncol`:
 ::: {.column width="40%"}
 ::: {data-id="code"}
 ::: r-box
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="30-38,40-48,50-54"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="30-38,40-48,50-54"}
 {{< include _valueboxes-r.qmd >}}
-```
+````
 :::
 :::
 :::
@@ -623,9 +623,9 @@ You can control layout of multiple outputs with `layout-ncol`:
 
 ::: {data-id="code"}
 ::: python-box
-``` {.yaml filename="dashboard-py.qmd" code-line-numbers="|11|13-25|27-35|37-45|47-51|53"}
+```` {.yaml filename="dashboard-py.qmd" code-line-numbers="|11|13-25|27-35|37-45|47-51|53"}
 {{< include _valueboxes-py.qmd >}}
-```
+````
 :::
 :::
 
@@ -635,9 +635,9 @@ You can control layout of multiple outputs with `layout-ncol`:
 ::: {.column width="40%"}
 ::: {data-id="code"}
 ::: python-box
-``` {.yaml filename="dashboard-py.qmd" code-line-numbers="27-35,37-45,47-51"}
+```` {.yaml filename="dashboard-py.qmd" code-line-numbers="27-35,37-45,47-51"}
 {{< include _valueboxes-py.qmd >}}
-```
+````
 :::
 :::
 :::

@@ -556,6 +556,12 @@ from plotnine.data import mpg
 
 # Let's build!
 
+## Materials
+
+-   Slides for this video: [mine.quarto.pub/quarto-dashboards/1-hello-dashboards](https://mine.quarto.pub/quarto-dashboards/1-hello-dashboards/)
+
+-   Source code for slides: [github.com/mine-cetinkaya-rundel/quarto-dashboards](https://github.com/mine-cetinkaya-rundel/quarto-dashboards)
+
 ## 🏁 Start {.smaller}
 
 Clone the GitHub repo `mine-cetinkaya-rundel/olympicdash` (<https://github.com/mine-cetinkaya-rundel/olympicdash>) and work on...

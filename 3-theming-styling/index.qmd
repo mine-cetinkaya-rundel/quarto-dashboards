@@ -16,9 +16,9 @@ format:
 Quarto dashboards can be styled with one of the 25 themes from the Bootswatch project:
 
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="|3-5"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="|3-5"}
 {{< include _bootswatch.qmd >}}
-```
+````
 :::
 
 ## Bootswatch themes {.smaller auto-animate="true"}
@@ -26,9 +26,9 @@ Quarto dashboards can be styled with one of the 25 themes from the Bootswatch pr
 ::: columns
 ::: {.column width="40%"}
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="3-5"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="3-5"}
 {{< include _bootswatch.qmd >}}
-```
+````
 :::
 :::
 
@@ -51,9 +51,9 @@ Quarto dashboards can be styled with one of the 25 themes from the Bootswatch pr
 You can provide a light and dark theme and Quarto will automatically place a light/dark toggle on the navbar:
 
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="|3-7"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="|3-7"}
 {{< include _light-dark.qmd >}}
-```
+````
 :::
 
 ## Light mode {.smaller auto-animate="true"}
@@ -61,9 +61,9 @@ You can provide a light and dark theme and Quarto will automatically place a lig
 ::: columns
 ::: {.column width="40%"}
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="6"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="6"}
 {{< include _light-dark.qmd >}}
-```
+````
 :::
 :::
 
@@ -77,9 +77,9 @@ You can provide a light and dark theme and Quarto will automatically place a lig
 ::: columns
 ::: {.column width="40%"}
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="7"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="7"}
 {{< include _light-dark.qmd >}}
-```
+````
 :::
 :::
 
@@ -113,9 +113,9 @@ You can provide a light and dark theme and Quarto will automatically place a lig
 ::: columns
 ::: {.column width="40%"}
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="|3-5"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="|3-5"}
 {{< include _custom-light.qmd >}}
-```
+````
 :::
 :::
 
@@ -126,18 +126,18 @@ You can provide a light and dark theme and Quarto will automatically place a lig
 
 ## Custom light SCSS {.smaller}
 
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="|1-7|9-12|14-19"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="|1-7|9-12|14-19"}
 {{< include _custom-light.scss >}}
-```
+````
 
 ## Customizing Bootswatch themes
 
 ::: columns
 ::: {.column width="40%"}
 ::: {data-id="code"}
-``` {.yaml filename="dashboard-r.qmd" code-line-numbers="|5-7"}
+```` {.yaml filename="dashboard-r.qmd" code-line-numbers="|5-7"}
 {{< include _custom-sandstone.qmd >}}
-```
+````
 :::
 :::
 
