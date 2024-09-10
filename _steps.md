@@ -23,3 +23,8 @@
 
 # 3-theming-styling
 
+- Update the theme to the appropriate Bootswatch theme.
+- Render the dashboard and identify what other aspects of the dashboard theme and cell outputs should be modified.
+- Add an SCSS file for custom styling and use it to augment the Bootswatch theme to get dashboard theme elements as close to the final goal as you can.
+- Polish your plots to get them as close to the final goal as you can.
+
