@@ -564,7 +564,13 @@ from plotnine.data import mpg
 
 ## 🏁 Start {.smaller}
 
-Clone the GitHub repo `mine-cetinkaya-rundel/olympicdash` (<https://github.com/mine-cetinkaya-rundel/olympicdash>) and work on...
+-   Go to the GitHub repo [github.com/mine-cetinkaya-rundel/olympicdash](https://github.com/mine-cetinkaya-rundel/olympicdash){.uri}.
+
+-   Click on Use This Template to create a repo for yourself using this one as a template.
+
+-   Clone that repo and open it in your preferred IDE / editor.
+
+-   Work on one of the following depending on your preferred language:
 
 ::: r-box
 `olympicdash-r-1.qmd`
