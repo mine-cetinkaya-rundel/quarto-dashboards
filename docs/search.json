@@ -1,0 +1,709 @@
+[
+  {
+    "objectID": "1-hello-dashboards/index.html#quarto",
+    "href": "1-hello-dashboards/index.html#quarto",
+    "title": "Hello,Quarto Dashboards!",
+    "section": "Quarto",
+    "text": "Quarto\n\nis a (relatively) new, open-source, scientific, and technical publishing system\naims to make the process of creating and collaborating dramatically better"
+  },
+  {
+    "objectID": "1-hello-dashboards/index.html#quarto-many-outputs",
+    "href": "1-hello-dashboards/index.html#quarto-many-outputs",
+    "title": "Hello,Quarto Dashboards!",
+    "section": "Quarto ➝ many outputs",
+    "text": "Quarto ➝ many outputs\nWith Quarto you can weave together narrative text and code to produce elegantly formatted output as documents, web pages, blog posts, books, and more…"
+  },
+  {
+    "objectID": "1-hello-dashboards/index.html#quarto-dashboards",
+    "href": "1-hello-dashboards/index.html#quarto-dashboards",
+    "title": "Hello,Quarto Dashboards!",
+    "section": "Quarto ➝ dashboards",
+    "text": "Quarto ➝ dashboards\nSince Quarto 1.4!"
+  },
+  {
+    "objectID": "1-hello-dashboards/index.html#quarto-version",
+    "href": "1-hello-dashboards/index.html#quarto-version",
+    "title": "Hello,Quarto Dashboards!",
+    "section": "Quarto version",
+    "text": "Quarto version\n\n\n\n\n\n\nTip\n\n\nRun the following in your Terminal to find your Quarto version:\n\n\nTerminal\n\nquarto --version"
+  },
+  {
+    "objectID": "1-hello-dashboards/index.html#olympic-games-dashboard---r",
+    "href": "1-hello-dashboards/index.html#olympic-games-dashboard---r",
+    "title": "Hello,Quarto Dashboards!",
+    "section": "Olympic Games dashboard - R",
+    "text": "Olympic Games dashboard - R\n\n🔗 mine.quarto.pub/olympic-games-r"
+  },
+  {
+    "objectID": "1-hello-dashboards/index.html#olympic-games-dashboard---python",
+    "href": "1-hello-dashboards/index.html#olympic-games-dashboard---python",
+    "title": "Hello,Quarto Dashboards!",
+    "section": "Olympic Games dashboard - Python",
+    "text": "Olympic Games dashboard - Python\n\n🔗 mine.quarto.pub/olympic-games-py"
+  },
+  {
+    "objectID": "1-hello-dashboards/index.html#notebook-dashboard",
+    "href": "1-hello-dashboards/index.html#notebook-dashboard",
+    "title": "Hello,Quarto Dashboards!",
+    "section": "Notebook ➝ Dashboard",
+    "text": "Notebook ➝ Dashboard\n\n\n\nolympicdash-r.qmd\n\n---\ntitle: \"Olympic Games\"\nformat: dashboard\n---\n\n# notebook content goes here...\n\n\n\n\n\nolympicdash-py.qmd\n\n---\ntitle: \"Olympic Games\"\nformat: dashboard\n---\n\n# notebook content goes here..."
+  },
+  {
+    "objectID": "1-hello-dashboards/index.html#cards",
+    "href": "1-hello-dashboards/index.html#cards",
+    "title": "Hello,Quarto Dashboards!",
+    "section": "Cards",
+    "text": "Cards\nDashboards are composed of cards."
+  },
+  {
+    "objectID": "1-hello-dashboards/index.html#rows-and-columns",
+    "href": "1-hello-dashboards/index.html#rows-and-columns",
+    "title": "Hello,Quarto Dashboards!",
+    "section": "Rows and columns",
+    "text": "Rows and columns\nCards are arranged into rows and columns."
+  },
+  {
+    "objectID": "1-hello-dashboards/index.html#layouts",
+    "href": "1-hello-dashboards/index.html#layouts",
+    "title": "Hello,Quarto Dashboards!",
+    "section": "Layouts",
+    "text": "Layouts\nPages, tabsets, and sidebars allow for more advanced layouts."
+  },
+  {
+    "objectID": "1-hello-dashboards/index.html#step-by-step",
+    "href": "1-hello-dashboards/index.html#step-by-step",
+    "title": "Hello,Quarto Dashboards!",
+    "section": "Step-by-step",
+    "text": "Step-by-step\nLet’s make a dashboard, step-by-step\n\nFirst with R\nThen with Python"
+  },
+  {
+    "objectID": "1-hello-dashboards/index.html#step-1-format-dashboard",
+    "href": "1-hello-dashboards/index.html#step-1-format-dashboard",
+    "title": "Hello,Quarto Dashboards!",
+    "section": "Step 1: format: dashboard",
+    "text": "Step 1: format: dashboard\n\n\n\ndashboard-r.qmd\n\n---\ntitle: \"My first Quarto dashboard\"\nformat: dashboard\n---"
+  },
+  {
+    "objectID": "1-hello-dashboards/index.html#step-2-add-a-card",
+    "href": "1-hello-dashboards/index.html#step-2-add-a-card",
+    "title": "Hello,Quarto Dashboards!",
+    "section": "Step 2: Add a card",
+    "text": "Step 2: Add a card\n\n\n\ndashboard-r.qmd\n\n---\ntitle: \"My first Quarto dashboard\"\nformat: dashboard\n---\n\n```{r}\nlibrary(ggplot2)\n```\n\n```{r}\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```"
+  },
+  {
+    "objectID": "1-hello-dashboards/index.html#step-2-add-a-card-1",
+    "href": "1-hello-dashboards/index.html#step-2-add-a-card-1",
+    "title": "Hello,Quarto Dashboards!",
+    "section": "Step 2: Add a card",
+    "text": "Step 2: Add a card\n\n\n\n\n\ndashboard-r.qmd\n\n---\ntitle: \"My first Quarto dashboard\"\nformat: dashboard\n---\n\n```{r}\nlibrary(ggplot2)\n```\n\n```{r}\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```"
+  },
+  {
+    "objectID": "1-hello-dashboards/index.html#step-3-add-another-card",
+    "href": "1-hello-dashboards/index.html#step-3-add-another-card",
+    "title": "Hello,Quarto Dashboards!",
+    "section": "Step 3: Add another card",
+    "text": "Step 3: Add another card\n\n\n\ndashboard-r.qmd\n\n---\ntitle: \"My first Quarto dashboard\"\nformat: dashboard\n---\n\n```{r}\nlibrary(ggplot2)\n```\n\n```{r}\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n\n```{r}\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```"
+  },
+  {
+    "objectID": "1-hello-dashboards/index.html#step-3-add-another-card-1",
+    "href": "1-hello-dashboards/index.html#step-3-add-another-card-1",
+    "title": "Hello,Quarto Dashboards!",
+    "section": "Step 3: Add another card",
+    "text": "Step 3: Add another card\n\n\n\n\n\ndashboard-r.qmd\n\n---\ntitle: \"My first Quarto dashboard\"\nformat: dashboard\n---\n\n```{r}\nlibrary(ggplot2)\n```\n\n```{r}\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n\n```{r}\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```"
+  },
+  {
+    "objectID": "1-hello-dashboards/index.html#step-4-add-titles-to-cards",
+    "href": "1-hello-dashboards/index.html#step-4-add-titles-to-cards",
+    "title": "Hello,Quarto Dashboards!",
+    "section": "Step 4: Add titles to cards",
+    "text": "Step 4: Add titles to cards\n\n\n\ndashboard-r.qmd\n\n---\ntitle: \"My first Quarto dashboard\"\nformat: dashboard\n---\n\n```{r}\nlibrary(ggplot2)\n```\n\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```"
+  },
+  {
+    "objectID": "1-hello-dashboards/index.html#step-4-add-titles-to-cards-1",
+    "href": "1-hello-dashboards/index.html#step-4-add-titles-to-cards-1",
+    "title": "Hello,Quarto Dashboards!",
+    "section": "Step 4: Add titles to cards",
+    "text": "Step 4: Add titles to cards\n\n\n\n\n\ndashboard-r.qmd\n\n---\ntitle: \"My first Quarto dashboard\"\nformat: dashboard\n---\n\n```{r}\nlibrary(ggplot2)\n```\n\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```"
+  },
+  {
+    "objectID": "1-hello-dashboards/index.html#steps-1---4",
+    "href": "1-hello-dashboards/index.html#steps-1---4",
+    "title": "Hello,Quarto Dashboards!",
+    "section": "Steps 1 - 4",
+    "text": "Steps 1 - 4"
+  },
+  {
+    "objectID": "1-hello-dashboards/index.html#step-1-format-dashboard-1",
+    "href": "1-hello-dashboards/index.html#step-1-format-dashboard-1",
+    "title": "Hello,Quarto Dashboards!",
+    "section": "Step 1: format: dashboard",
+    "text": "Step 1: format: dashboard\n\n\n\ndashboard-py.qmd\n\n---\ntitle: \"My first Quarto dashboard\"\nformat: dashboard\n---"
+  },
+  {
+    "objectID": "1-hello-dashboards/index.html#step-2-add-a-card-2",
+    "href": "1-hello-dashboards/index.html#step-2-add-a-card-2",
+    "title": "Hello,Quarto Dashboards!",
+    "section": "Step 2: Add a card",
+    "text": "Step 2: Add a card\n\n\n\ndashboard-py.qmd\n\n---\ntitle: \"My first Quarto dashboard\"\nformat: dashboard\n---\n\n```{python}\nfrom plotnine import ggplot, aes, geom_point\nfrom plotnine.data import mpg\n```\n\n```{python}\n(\n    ggplot(mpg, aes(x = \"cty\", y = \"hwy\"))\n    + geom_point()\n)\n```"
+  },
+  {
+    "objectID": "1-hello-dashboards/index.html#step-2-add-a-card-3",
+    "href": "1-hello-dashboards/index.html#step-2-add-a-card-3",
+    "title": "Hello,Quarto Dashboards!",
+    "section": "Step 2: Add a card",
+    "text": "Step 2: Add a card\n\n\n\n\n\ndashboard-py.qmd\n\n---\ntitle: \"My first Quarto dashboard\"\nformat: dashboard\n---\n\n```{python}\nfrom plotnine import ggplot, aes, geom_point\nfrom plotnine.data import mpg\n```\n\n```{python}\n(\n    ggplot(mpg, aes(x = \"cty\", y = \"hwy\"))\n    + geom_point()\n)\n```"
+  },
+  {
+    "objectID": "1-hello-dashboards/index.html#step-3-add-another-card-2",
+    "href": "1-hello-dashboards/index.html#step-3-add-another-card-2",
+    "title": "Hello,Quarto Dashboards!",
+    "section": "Step 3: Add another card",
+    "text": "Step 3: Add another card\n\n\n\ndashboard-py.qmd\n\n---\ntitle: \"My first Quarto dashboard\"\nformat: dashboard\n---\n\n```{python}\nfrom plotnine import ggplot, aes, geom_point, geom_bar\nfrom plotnine.data import mpg\n```\n\n```{python}\n(\n    ggplot(mpg, aes(x = \"cty\", y = \"hwy\"))\n    + geom_point()\n)\n```\n\n```{python}\n(\n    ggplot(mpg, aes(x = \"drv\"))\n    + geom_bar()\n)\n```"
+  },
+  {
+    "objectID": "1-hello-dashboards/index.html#step-3-add-another-card-3",
+    "href": "1-hello-dashboards/index.html#step-3-add-another-card-3",
+    "title": "Hello,Quarto Dashboards!",
+    "section": "Step 3: Add another card",
+    "text": "Step 3: Add another card\n\n\n\n\n\ndashboard-py.qmd\n\n---\ntitle: \"My first Quarto dashboard\"\nformat: dashboard\n---\n\n```{python}\nfrom plotnine import ggplot, aes, geom_point, geom_bar\nfrom plotnine.data import mpg\n```\n\n```{python}\n(\n    ggplot(mpg, aes(x = \"cty\", y = \"hwy\"))\n    + geom_point()\n)\n```\n\n```{python}\n(\n    ggplot(mpg, aes(x = \"drv\"))\n    + geom_bar()\n)\n```"
+  },
+  {
+    "objectID": "1-hello-dashboards/index.html#step-4-add-titles-to-cards-2",
+    "href": "1-hello-dashboards/index.html#step-4-add-titles-to-cards-2",
+    "title": "Hello,Quarto Dashboards!",
+    "section": "Step 4: Add titles to cards",
+    "text": "Step 4: Add titles to cards\n\n\n\ndashboard-py.qmd\n\n---\ntitle: \"My first Quarto dashboard\"\nformat: dashboard\n---\n\n```{python}\nfrom plotnine import ggplot, aes, geom_point, geom_bar\nfrom plotnine.data import mpg\n```\n\n```{python}\n#| title: Highway vs. city mileage\n(\n    ggplot(mpg, aes(x = \"cty\", y = \"hwy\"))\n    + geom_point()\n)\n```\n\n```{python}\n#| title: Drive types\n(\n    ggplot(mpg, aes(x = \"drv\"))\n    + geom_bar()\n)\n```"
+  },
+  {
+    "objectID": "1-hello-dashboards/index.html#step-4-add-titles-to-cards-3",
+    "href": "1-hello-dashboards/index.html#step-4-add-titles-to-cards-3",
+    "title": "Hello,Quarto Dashboards!",
+    "section": "Step 4: Add titles to cards",
+    "text": "Step 4: Add titles to cards\n\n\n\n\n\ndashboard-py.qmd\n\n---\ntitle: \"My first Quarto dashboard\"\nformat: dashboard\n---\n\n```{python}\nfrom plotnine import ggplot, aes, geom_point, geom_bar\nfrom plotnine.data import mpg\n```\n\n```{python}\n#| title: Highway vs. city mileage\n(\n    ggplot(mpg, aes(x = \"cty\", y = \"hwy\"))\n    + geom_point()\n)\n```\n\n```{python}\n#| title: Drive types\n(\n    ggplot(mpg, aes(x = \"drv\"))\n    + geom_bar()\n)\n```"
+  },
+  {
+    "objectID": "1-hello-dashboards/index.html#steps-1---4-1",
+    "href": "1-hello-dashboards/index.html#steps-1---4-1",
+    "title": "Hello,Quarto Dashboards!",
+    "section": "Steps 1 - 4",
+    "text": "Steps 1 - 4"
+  },
+  {
+    "objectID": "1-hello-dashboards/index.html#start",
+    "href": "1-hello-dashboards/index.html#start",
+    "title": "Hello,Quarto Dashboards!",
+    "section": "🏁 Start",
+    "text": "🏁 Start\nClone the GitHub repo mine-cetinkaya-rundel/olympicdash (https://github.com/mine-cetinkaya-rundel/olympicdash) and work on…\n\nolympicdash-r-1.qmd\n\n\nolympicdash-py-1.qmd"
+  },
+  {
+    "objectID": "1-hello-dashboards/index.html#goal",
+    "href": "1-hello-dashboards/index.html#goal",
+    "title": "Hello,Quarto Dashboards!",
+    "section": "🎯 Goal",
+    "text": "🎯 Goal\nYour goal is to create one of the following dashboards, and then deploy to QuartoPub.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nquarto.org"
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#navigation-bar-and-pages",
+    "href": "2-dashboard-components/index.html#navigation-bar-and-pages",
+    "title": "Quarto DashboardsComponents",
+    "section": "Navigation bar and pages",
+    "text": "Navigation bar and pages\nIcon, title, and author along with links to sub-pages if more than one page is defined."
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#sidebars-rows-columns-and-tabsets",
+    "href": "2-dashboard-components/index.html#sidebars-rows-columns-and-tabsets",
+    "title": "Quarto DashboardsComponents",
+    "section": "Sidebars, rows, columns, and tabsets",
+    "text": "Sidebars, rows, columns, and tabsets\nRows and columns using markdown heading, with optional attributes to control height, width, etc. Sidebars, mostly used for for interactive inputs. Tabsets to further divide content."
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#cards",
+    "href": "2-dashboard-components/index.html#cards",
+    "title": "Quarto DashboardsComponents",
+    "section": "Cards",
+    "text": "Cards\nCards are containers for code cell outputs (e.g., plots, tables, value boxes) and free form markdown text. The content of cards typically maps to cells in your notebook or source document."
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#a-note-on-computing-language",
+    "href": "2-dashboard-components/index.html#a-note-on-computing-language",
+    "title": "Quarto DashboardsComponents",
+    "section": "A note on computing language",
+    "text": "A note on computing language\n\nThe examples in this module will primarily feature R code in code cells\nAll code in code cells can be replaced with Python, Julia, Observable, etc. and the layout would look exactly the same\nWhen/if different behavior in layout is expected, this will be explicitly called out and examples in other computing languages will also be provided"
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#pages",
+    "href": "2-dashboard-components/index.html#pages",
+    "title": "Quarto DashboardsComponents",
+    "section": "Pages",
+    "text": "Pages\n\n\n\ndashboard-r.qmd\n\n---\ntitle: \"Pages\"\nformat: dashboard\n---\n\n```{r}\nlibrary(ggplot2)\n\n\nScatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n\n\n\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n\n## Pages {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"10\"}\n---\ntitle: \"Pages\"\nformat: dashboard\n---\n\n```{r}\nlibrary(ggplot2)\n\n\n\nScatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n\n\n\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/pages-scatter.png)\n:::\n:::\n\n## Pages {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"18\"}\n---\ntitle: \"Pages\"\nformat: dashboard\n---\n\n```{r}\nlibrary(ggplot2)\n\n\n\nScatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n\n\n\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/pages-bar.png)\n:::\n:::\n\n## Logo {auto-animate=\"true\"}\n\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"|3-5\"}\n---\ntitle: \"Logo\"\nformat: \n  dashboard:\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)\n\n\n\nScatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n\n\n\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n\n## Logo {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"3-5\"}\n---\ntitle: \"Logo\"\nformat: \n  dashboard:\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)\n\n\n\nScatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n\n\n\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/logo.png)\n:::\n:::\n\n## Navigation buttons {auto-animate=\"true\"}\n\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"|6-15\"}\n---\ntitle: \"Navigation buttons\"\nformat: \n  dashboard:\n    logo: images/beetle.png\n    nav-buttons:\n      - icon: github\n        href: https://github.com/quarto-dev/quarto-cli\n        aria-label: GitHub\n      - icon: linkedin\n        href: https://www.linkedin.com/company/posit-software/\n        aria-label: LinkedIn\n      - icon: youtube\n        href: https://youtube.com/\n        aria-label: YouTube\n---\n\n```{r}\nlibrary(ggplot2)\n\n\n\nScatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n\n\n\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n\n## Navigation buttons {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"6-15\"}\n---\ntitle: \"Navigation buttons\"\nformat: \n  dashboard:\n    logo: images/beetle.png\n    nav-buttons:\n      - icon: github\n        href: https://github.com/quarto-dev/quarto-cli\n        aria-label: GitHub\n      - icon: linkedin\n        href: https://www.linkedin.com/company/posit-software/\n        aria-label: LinkedIn\n      - icon: youtube\n        href: https://youtube.com/\n        aria-label: YouTube\n---\n\n```{r}\nlibrary(ggplot2)\n\n\n\nScatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n\n\n\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/nav-buttons.png)\n:::\n:::\n\n## Navigation buttons -- alternative {.smaller auto-animate=\"true\"}\n\nSpecial aliases are recognized for certain navigation buttons: `linkedin`, `facebook`, `reddit`, `twitter`, and `github`.\n\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"|6-7\"}\n---\ntitle: \"Navigation buttons - alternative\"\nformat: \n  dashboard:\n    logo: images/beetle.png\n    nav-buttons: [linkedin]\n    linkedin: https://www.linkedin.com/company/posit-software\n---\n\n```{r}\nlibrary(ggplot2)\n\n\n\nScatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n\n\n\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n\n# Sidebars, rows, columns, and tabsets\n\n## Sidebars\n\n-   For information about the dashboard, data, etc. and/or for user inputs in interactive dashboards\n\n-   Can be at the global or page level\n\n## Sidebars - Global {auto-animate=\"true\"}\n\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"|22-24\"}\n---\ntitle: \"Sidebars - Global\"\nformat: \n  dashboard:\n    logo: images/beetle.png\n    nav-buttons:\n      - icon: github\n        href: https://github.com/quarto-dev/quarto-cli\n        aria-label: GitHub\n      - icon: linkedin\n        href: https://www.linkedin.com/company/posit-software/\n        aria-label: LinkedIn\n      - icon: youtube\n        href: https://youtube.com/\n        aria-label: YouTube\n---\n\n```{r}\nlibrary(ggplot2)\n\n\n\n\nInformation and/or interactivity tools that you want on every page go here.\n\n\n\nScatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n\n\n\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n\n## Sidebars - Global {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"22-24\"}\n---\ntitle: \"Sidebars - Global\"\nformat: \n  dashboard:\n    logo: images/beetle.png\n    nav-buttons:\n      - icon: github\n        href: https://github.com/quarto-dev/quarto-cli\n        aria-label: GitHub\n      - icon: linkedin\n        href: https://www.linkedin.com/company/posit-software/\n        aria-label: LinkedIn\n      - icon: youtube\n        href: https://youtube.com/\n        aria-label: YouTube\n---\n\n```{r}\nlibrary(ggplot2)\n\n\n\n\nInformation and/or interactivity tools that you want on every page go here.\n\n\n\nScatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n\n\n\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/sidebars-global-scatter.png)\n:::\n:::\n\n## Sidebars - Global {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"22-24\"}\n---\ntitle: \"Sidebars - Global\"\nformat: \n  dashboard:\n    logo: images/beetle.png\n    nav-buttons:\n      - icon: github\n        href: https://github.com/quarto-dev/quarto-cli\n        aria-label: GitHub\n      - icon: linkedin\n        href: https://www.linkedin.com/company/posit-software/\n        aria-label: LinkedIn\n      - icon: youtube\n        href: https://youtube.com/\n        aria-label: YouTube\n---\n\n```{r}\nlibrary(ggplot2)\n\n\n\n\nInformation and/or interactivity tools that you want on every page go here.\n\n\n\nScatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n\n\n\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/sidebars-global-bar.png)\n:::\n:::\n\n## Sidebars - Page {auto-animate=\"true\"}\n\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"|22-28\"}\n---\ntitle: \"Sidebars - Per page\"\nformat: \n  dashboard:\n    logo: images/beetle.png\n    nav-buttons:\n      - icon: github\n        href: https://github.com/quarto-dev/quarto-cli\n        aria-label: GitHub\n      - icon: linkedin\n        href: https://www.linkedin.com/company/posit-software/\n        aria-label: LinkedIn\n      - icon: youtube\n        href: https://youtube.com/\n        aria-label: YouTube\n---\n\n```{r}\nlibrary(ggplot2)\n\n\n\nScatter\n\n\n\n\nInformation and/or interactivity tools that you want on a single page go here.\n\n\n\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n\n\n\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n\n## Sidebars - Page {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"22-28\"}\n---\ntitle: \"Sidebars - Per page\"\nformat: \n  dashboard:\n    logo: images/beetle.png\n    nav-buttons:\n      - icon: github\n        href: https://github.com/quarto-dev/quarto-cli\n        aria-label: GitHub\n      - icon: linkedin\n        href: https://www.linkedin.com/company/posit-software/\n        aria-label: LinkedIn\n      - icon: youtube\n        href: https://youtube.com/\n        aria-label: YouTube\n---\n\n```{r}\nlibrary(ggplot2)\n\n\n\nScatter\n\n\n\n\nInformation and/or interactivity tools that you want on a single page go here.\n\n\n\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n\n\n\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/sidebars-page-scatter.png)\n:::\n:::\n\n## Sidebars - Page {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"22-28\"}\n---\ntitle: \"Sidebars - Per page\"\nformat: \n  dashboard:\n    logo: images/beetle.png\n    nav-buttons:\n      - icon: github\n        href: https://github.com/quarto-dev/quarto-cli\n        aria-label: GitHub\n      - icon: linkedin\n        href: https://www.linkedin.com/company/posit-software/\n        aria-label: LinkedIn\n      - icon: youtube\n        href: https://youtube.com/\n        aria-label: YouTube\n---\n\n```{r}\nlibrary(ggplot2)\n\n\n\nScatter\n\n\n\n\nInformation and/or interactivity tools that you want on a single page go here.\n\n\n\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n\n\n\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/sidebars-page-bar.png)\n:::\n:::\n\n## Rows {auto-animate=\"true\"}\n\nBy default, cards are laid out in rows:\n\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"|12,20\"}\n---\ntitle: \"Rows\"\nformat: \n  dashboard:\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)\n\n\nScatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n\n\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n\n## Rows {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"12,20\"}\n---\ntitle: \"Rows\"\nformat: \n  dashboard:\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)\n\n\nScatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n\n\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/rows.png)\n:::\n:::\n\n## Rows {auto-animate=\"true\"}\n\nDefault value of `orientation` is `rows`:\n\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"4-5\"}\n---\ntitle: \"Rows\"\nformat: \n  dashboard:\n    orientation: rows\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)\n\n\nScatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n\n\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n\n## Columns {auto-animate=\"true\"}\n\nSetting `orientation` to `columns` makes each `##` indicate a column instead of a row:\n\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"4-5\"}\n---\ntitle: \"Columns\"\nformat: \n  dashboard:\n    orientation: columns\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)\n\n\nScatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n\n\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n\n## Columns {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"4-5,13,21\"}\n---\ntitle: \"Columns\"\nformat: \n  dashboard:\n    orientation: columns\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)\n\n\nScatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n\n\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/columns.png)\n:::\n:::\n\n## Rows, then columns {auto-animate=\"true\"}\n\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"|12-22|24-40\"}\n---\ntitle: \"Rows, then columns\"\nformat: \n  dashboard:\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)\n\n\nOverview\n\nThis dashboard summarizes an illuminating analysis of fuel economy of cars.\n\nThis is a car.\n\n\n\nPlots\nScatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n\n## Rows, then columns {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"12,14,18,24,26,34\"}\n---\ntitle: \"Rows, then columns\"\nformat: \n  dashboard:\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)\n\n\nOverview\n\nThis dashboard summarizes an illuminating analysis of fuel economy of cars.\n\nThis is a car.\n\n\n\nPlots\nScatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/rows-then-columns.png)\n:::\n:::\n\n## Columns, then rows {auto-animate=\"true\"}\n\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"|5|12-22|24-40\"}\n---\ntitle: \"Rows, then columns\"\nformat: \n  dashboard:\n    orientation: columns\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)\n\n\nOverview\n\nThis dashboard summarizes an illuminating analysis of fuel economy of cars.\n\nThis is a car.\n\n\n\nPlots\nScatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n\n## Columns, then rows {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"5\"}\n---\ntitle: \"Rows, then columns\"\nformat: \n  dashboard:\n    orientation: columns\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)\n\n\nOverview\n\nThis dashboard summarizes an illuminating analysis of fuel economy of cars.\n\nThis is a car.\n\n\n\nPlots\nScatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/columns-then-rows.png)\n:::\n:::\n\n## Heights and widths of rows and columns {auto-animate=\"true\"}\n\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"|12,24|14,18|26,34\"}\n---\ntitle: \"Rows, then columns\"\nformat: \n  dashboard:\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)\n\n\nOverview\n\nThis dashboard summarizes an illuminating analysis of fuel economy of cars.\n\nThis is a car.\n\n\n\nPlots\nScatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n\n## Heights and widths of rows and columns {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"12,24,14,18,26,34\"}\n---\ntitle: \"Rows, then columns\"\nformat: \n  dashboard:\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)\n\n\nOverview\n\nThis dashboard summarizes an illuminating analysis of fuel economy of cars.\n\nThis is a car.\n\n\n\nPlots\nScatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/rows-then-columns-heights-widths.png)\n:::\n:::\n\n## `fill` vs. `flow`\n\n::: incremental\n-   Each row in a dashboard that is not given an explicit height will determine its size by either `fill`ing available space or by `flow`ing to its natural height\n\n-   `fill`ling layout is generally the default, however for certain types of content (e.g., markdown text) `flow` layout is the default.\n\n-   If the default behavior is not what you want, you can explicitly specify filling or flowing behavior using the `.fill` and `.flow` classes applied to a row.\n\n    ``` {.yaml filename=\"dashboard-r.qmd\"}\n    ## Row {.fill}\n\n    ## Row {.flow}\n    ```\n:::\n\n## `scrolling`\n\nNeed more space?\nSet `scrolling: true` for accommodate page overflow.\n\n``` yaml\n---\nformat: \n  dashboard:\n    scrolling: true \n---\n. . .\n\n\n\n\n\n\nNote\n\n\nThis option is handy for adding more rows of cards to a dashboard, however spreading content across pages and tabsets can be a better way to present information.\n\n\n\n\n\nPer page controls\norientation and scrolling can be provided at the dashboard or page level:\n\n\ndashboard-r.qmd\n\n---\ntitle: \"Rows, then columns\"\nformat: \n  dashboard:\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)\n\n\n\nOverview\n\nThis dashboard summarizes an illuminating analysis of fuel economy of cars.\n\nThis is a car.\n\n\n\nPlots\nScatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n\n## Tabsets {auto-animate=\"true\"}\n\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"|12|24\"}\n---\ntitle: \"Tabsets\"\nformat: \n  dashboard:\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)\n\n\nOverview\nObjective\nThis dashboard summarizes an illuminating analysis of fuel economy of cars.\nCar\nThis is a car.\n\n\n\nPlots\nScatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n\n## Tabsets {.smaller auto-animate=\"true\"}\n\nEach card within a row/column or each row/column within another becomes a tab:\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"12,24\"}\n---\ntitle: \"Tabsets\"\nformat: \n  dashboard:\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)\n\n\nOverview\nObjective\nThis dashboard summarizes an illuminating analysis of fuel economy of cars.\nCar\nThis is a car.\n\n\n\nPlots\nScatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/tabsets.png)\n:::\n:::\n\n# Cards\n\n## Cards\n\n::: incremental\n-   Fundamental unit of display within dashboards\n\n-   Created automatically for cells and markdown content that are within rows and columns\n\n-   Can be created manually with a `card` div:\n\n    ``` yaml\n    ::: {.card}\n    This text will be displayed within a card\n    :::\n    ```\n\n-   Cards provide an **expand** button which appears at bottom right on hover\n:::\n\n## Card titles {.smaller auto-animate=\"true\"}\n\nCard titles can be provided as a cell option or within a `cat()` (R) or `print()` (Python) statement:\n\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"|13|19-21\"}\n---\ntitle: \"Card titles\"\nformat: \n  dashboard:\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n```{r}\nn_cars &lt;- nrow(mpg)\n\ncat(\"title=\", \"Drive types of\", n_cars, \"cars\")\n\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n\n## Card titles {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"13,19-21\"}\n---\ntitle: \"Card titles\"\nformat: \n  dashboard:\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n```{r}\nn_cars &lt;- nrow(mpg)\n\ncat(\"title=\", \"Drive types of\", n_cars, \"cars\")\n\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/card-titles.png)\n:::\n:::\n\n## Pop quiz!\n\n::: your-turn\nWhich of the following cells will become a card in a dashboard?\n:::\n\n::: columns\n::: {.column width=\"45%\"}\na.  \n\n```{r}\nlibrary(palmerpenguins)\n\n\n\n```{r}\nx &lt;- 2\n```\n\n\n\n\n\n\n\n```{r}\nplot(cars)\n```\n\n\n\n```{r}\n#| output: false\n2 + 2\n```\n\n\n:::"
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#section-3",
+    "href": "2-dashboard-components/index.html#section-3",
+    "title": "Quarto DashboardsComponents",
+    "section": "",
+    "text": "Information and/or interactivity tools that you want on a single page go here."
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#section-4",
+    "href": "2-dashboard-components/index.html#section-4",
+    "title": "Quarto DashboardsComponents",
+    "section": "",
+    "text": "```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```"
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#section-5",
+    "href": "2-dashboard-components/index.html#section-5",
+    "title": "Quarto DashboardsComponents",
+    "section": "",
+    "text": "Information and/or interactivity tools that you want on a single page go here."
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#section-6",
+    "href": "2-dashboard-components/index.html#section-6",
+    "title": "Quarto DashboardsComponents",
+    "section": "",
+    "text": "```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```"
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#section-7",
+    "href": "2-dashboard-components/index.html#section-7",
+    "title": "Quarto DashboardsComponents",
+    "section": "",
+    "text": "Information and/or interactivity tools that you want on a single page go here."
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#section-8",
+    "href": "2-dashboard-components/index.html#section-8",
+    "title": "Quarto DashboardsComponents",
+    "section": "",
+    "text": "```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```"
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#scatter-14",
+    "href": "2-dashboard-components/index.html#scatter-14",
+    "title": "Quarto DashboardsComponents",
+    "section": "Scatter",
+    "text": "Scatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```"
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#bar-14",
+    "href": "2-dashboard-components/index.html#bar-14",
+    "title": "Quarto DashboardsComponents",
+    "section": "Bar",
+    "text": "Bar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n\n## Rows {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"12,20\"}\n---\ntitle: \"Rows\"\nformat: \n  dashboard:\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)"
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#scatter-15",
+    "href": "2-dashboard-components/index.html#scatter-15",
+    "title": "Quarto DashboardsComponents",
+    "section": "Scatter",
+    "text": "Scatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```"
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#bar-15",
+    "href": "2-dashboard-components/index.html#bar-15",
+    "title": "Quarto DashboardsComponents",
+    "section": "Bar",
+    "text": "Bar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/rows.png)\n:::\n:::\n\n## Rows {auto-animate=\"true\"}\n\nDefault value of `orientation` is `rows`:\n\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"4-5\"}\n---\ntitle: \"Rows\"\nformat: \n  dashboard:\n    orientation: rows\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)"
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#scatter-16",
+    "href": "2-dashboard-components/index.html#scatter-16",
+    "title": "Quarto DashboardsComponents",
+    "section": "Scatter",
+    "text": "Scatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```"
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#bar-16",
+    "href": "2-dashboard-components/index.html#bar-16",
+    "title": "Quarto DashboardsComponents",
+    "section": "Bar",
+    "text": "Bar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n\n## Columns {auto-animate=\"true\"}\n\nSetting `orientation` to `columns` makes each `##` indicate a column instead of a row:\n\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"4-5\"}\n---\ntitle: \"Columns\"\nformat: \n  dashboard:\n    orientation: columns\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)"
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#scatter-17",
+    "href": "2-dashboard-components/index.html#scatter-17",
+    "title": "Quarto DashboardsComponents",
+    "section": "Scatter",
+    "text": "Scatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```"
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#bar-17",
+    "href": "2-dashboard-components/index.html#bar-17",
+    "title": "Quarto DashboardsComponents",
+    "section": "Bar",
+    "text": "Bar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n\n## Columns {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"4-5,13,21\"}\n---\ntitle: \"Columns\"\nformat: \n  dashboard:\n    orientation: columns\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)"
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#scatter-18",
+    "href": "2-dashboard-components/index.html#scatter-18",
+    "title": "Quarto DashboardsComponents",
+    "section": "Scatter",
+    "text": "Scatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```"
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#bar-18",
+    "href": "2-dashboard-components/index.html#bar-18",
+    "title": "Quarto DashboardsComponents",
+    "section": "Bar",
+    "text": "Bar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/columns.png)\n:::\n:::\n\n## Rows, then columns {auto-animate=\"true\"}\n\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"|12-22|24-40\"}\n---\ntitle: \"Rows, then columns\"\nformat: \n  dashboard:\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)"
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#overview",
+    "href": "2-dashboard-components/index.html#overview",
+    "title": "Quarto DashboardsComponents",
+    "section": "Overview",
+    "text": "Overview\n\nThis dashboard summarizes an illuminating analysis of fuel economy of cars.\n\nThis is a car."
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#plots",
+    "href": "2-dashboard-components/index.html#plots",
+    "title": "Quarto DashboardsComponents",
+    "section": "Plots",
+    "text": "Plots\nScatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n\n## Rows, then columns {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"12,14,18,24,26,34\"}\n---\ntitle: \"Rows, then columns\"\nformat: \n  dashboard:\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)"
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#overview-1",
+    "href": "2-dashboard-components/index.html#overview-1",
+    "title": "Quarto DashboardsComponents",
+    "section": "Overview",
+    "text": "Overview\n\nThis dashboard summarizes an illuminating analysis of fuel economy of cars.\n\nThis is a car."
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#plots-1",
+    "href": "2-dashboard-components/index.html#plots-1",
+    "title": "Quarto DashboardsComponents",
+    "section": "Plots",
+    "text": "Plots\nScatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/rows-then-columns.png)\n:::\n:::\n\n## Columns, then rows {auto-animate=\"true\"}\n\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"|5|12-22|24-40\"}\n---\ntitle: \"Rows, then columns\"\nformat: \n  dashboard:\n    orientation: columns\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)"
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#overview-2",
+    "href": "2-dashboard-components/index.html#overview-2",
+    "title": "Quarto DashboardsComponents",
+    "section": "Overview",
+    "text": "Overview\n\nThis dashboard summarizes an illuminating analysis of fuel economy of cars.\n\nThis is a car."
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#plots-2",
+    "href": "2-dashboard-components/index.html#plots-2",
+    "title": "Quarto DashboardsComponents",
+    "section": "Plots",
+    "text": "Plots\nScatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n\n## Columns, then rows {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"5\"}\n---\ntitle: \"Rows, then columns\"\nformat: \n  dashboard:\n    orientation: columns\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)"
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#overview-3",
+    "href": "2-dashboard-components/index.html#overview-3",
+    "title": "Quarto DashboardsComponents",
+    "section": "Overview",
+    "text": "Overview\n\nThis dashboard summarizes an illuminating analysis of fuel economy of cars.\n\nThis is a car."
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#plots-3",
+    "href": "2-dashboard-components/index.html#plots-3",
+    "title": "Quarto DashboardsComponents",
+    "section": "Plots",
+    "text": "Plots\nScatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/columns-then-rows.png)\n:::\n:::\n\n## Heights and widths of rows and columns {auto-animate=\"true\"}\n\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"|12,24|14,18|26,34\"}\n---\ntitle: \"Rows, then columns\"\nformat: \n  dashboard:\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)"
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#overview-4",
+    "href": "2-dashboard-components/index.html#overview-4",
+    "title": "Quarto DashboardsComponents",
+    "section": "Overview",
+    "text": "Overview\n\nThis dashboard summarizes an illuminating analysis of fuel economy of cars.\n\nThis is a car."
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#plots-4",
+    "href": "2-dashboard-components/index.html#plots-4",
+    "title": "Quarto DashboardsComponents",
+    "section": "Plots",
+    "text": "Plots\nScatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n\n## Heights and widths of rows and columns {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"12,24,14,18,26,34\"}\n---\ntitle: \"Rows, then columns\"\nformat: \n  dashboard:\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)"
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#overview-5",
+    "href": "2-dashboard-components/index.html#overview-5",
+    "title": "Quarto DashboardsComponents",
+    "section": "Overview",
+    "text": "Overview\n\nThis dashboard summarizes an illuminating analysis of fuel economy of cars.\n\nThis is a car."
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#plots-5",
+    "href": "2-dashboard-components/index.html#plots-5",
+    "title": "Quarto DashboardsComponents",
+    "section": "Plots",
+    "text": "Plots\nScatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/rows-then-columns-heights-widths.png)\n:::\n:::\n\n## `fill` vs. `flow`\n\n::: incremental\n-   Each row in a dashboard that is not given an explicit height will determine its size by either `fill`ing available space or by `flow`ing to its natural height\n\n-   `fill`ling layout is generally the default, however for certain types of content (e.g., markdown text) `flow` layout is the default.\n\n-   If the default behavior is not what you want, you can explicitly specify filling or flowing behavior using the `.fill` and `.flow` classes applied to a row.\n\n    ``` {.yaml filename=\"dashboard-r.qmd\"}\n    ## Row {.fill}\n\n    ## Row {.flow}\n    ```\n:::\n\n## `scrolling`\n\nNeed more space?\nSet `scrolling: true` for accommodate page overflow.\n\n``` yaml\n---\nformat: \n  dashboard:\n    scrolling: true \n---\n. . .\n\n\n\n\n\n\nNote\n\n\nThis option is handy for adding more rows of cards to a dashboard, however spreading content across pages and tabsets can be a better way to present information."
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#per-page-controls",
+    "href": "2-dashboard-components/index.html#per-page-controls",
+    "title": "Quarto DashboardsComponents",
+    "section": "Per page controls",
+    "text": "Per page controls\norientation and scrolling can be provided at the dashboard or page level:\n\n\ndashboard-r.qmd\n\n---\ntitle: \"Rows, then columns\"\nformat: \n  dashboard:\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)"
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#overview-6",
+    "href": "2-dashboard-components/index.html#overview-6",
+    "title": "Quarto DashboardsComponents",
+    "section": "Overview",
+    "text": "Overview\n\nThis dashboard summarizes an illuminating analysis of fuel economy of cars.\n\nThis is a car."
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#plots-6",
+    "href": "2-dashboard-components/index.html#plots-6",
+    "title": "Quarto DashboardsComponents",
+    "section": "Plots",
+    "text": "Plots\nScatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n\n## Tabsets {auto-animate=\"true\"}\n\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"|12|24\"}\n---\ntitle: \"Tabsets\"\nformat: \n  dashboard:\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)"
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#overview-7",
+    "href": "2-dashboard-components/index.html#overview-7",
+    "title": "Quarto DashboardsComponents",
+    "section": "Overview",
+    "text": "Overview\nObjective\nThis dashboard summarizes an illuminating analysis of fuel economy of cars.\nCar\nThis is a car."
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#plots-7",
+    "href": "2-dashboard-components/index.html#plots-7",
+    "title": "Quarto DashboardsComponents",
+    "section": "Plots",
+    "text": "Plots\nScatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n\n## Tabsets {.smaller auto-animate=\"true\"}\n\nEach card within a row/column or each row/column within another becomes a tab:\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"12,24\"}\n---\ntitle: \"Tabsets\"\nformat: \n  dashboard:\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)"
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#overview-8",
+    "href": "2-dashboard-components/index.html#overview-8",
+    "title": "Quarto DashboardsComponents",
+    "section": "Overview",
+    "text": "Overview\nObjective\nThis dashboard summarizes an illuminating analysis of fuel economy of cars.\nCar\nThis is a car."
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#plots-8",
+    "href": "2-dashboard-components/index.html#plots-8",
+    "title": "Quarto DashboardsComponents",
+    "section": "Plots",
+    "text": "Plots\nScatter\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\nBar\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/tabsets.png)\n:::\n:::\n\n# Cards\n\n## Cards\n\n::: incremental\n-   Fundamental unit of display within dashboards\n\n-   Created automatically for cells and markdown content that are within rows and columns\n\n-   Can be created manually with a `card` div:\n\n    ``` yaml\n    ::: {.card}\n    This text will be displayed within a card\n    :::\n    ```\n\n-   Cards provide an **expand** button which appears at bottom right on hover\n:::\n\n## Card titles {.smaller auto-animate=\"true\"}\n\nCard titles can be provided as a cell option or within a `cat()` (R) or `print()` (Python) statement:\n\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"|13|19-21\"}\n---\ntitle: \"Card titles\"\nformat: \n  dashboard:\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n```{r}\nn_cars &lt;- nrow(mpg)\n\ncat(\"title=\", \"Drive types of\", n_cars, \"cars\")\n\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n\n## Card titles {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"13,19-21\"}\n---\ntitle: \"Card titles\"\nformat: \n  dashboard:\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n```{r}\nn_cars &lt;- nrow(mpg)\n\ncat(\"title=\", \"Drive types of\", n_cars, \"cars\")\n\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/card-titles.png)\n:::\n:::\n\n## Pop quiz!\n\n::: your-turn\nWhich of the following cells will become a card in a dashboard?\n:::\n\n::: columns\n::: {.column width=\"45%\"}\na.  \n\n```{r}\nlibrary(palmerpenguins)\n\n\n\n```{r}\nx &lt;- 2\n```"
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#multiple-outputs",
+    "href": "2-dashboard-components/index.html#multiple-outputs",
+    "title": "Quarto DashboardsComponents",
+    "section": "Multiple outputs",
+    "text": "Multiple outputs\nIf a cell generates multiple outputs, they get wrapped in a single cell:\n\n\n\ndashboard-r.qmd\n\n---\ntitle: \"Multiple outputs\"\nformat: \n  dashboard:\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)\n\n```{r}\n#| title: One cell = one card\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n\n## Multiple outputs {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"14-15,17-18\"}\n---\ntitle: \"Multiple outputs\"\nformat: \n  dashboard:\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)\n```{r}\n#| title: One cell = one card\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/card-multiple-outputs.png)\n:::\n:::\n\n## Multiple output layout {.smaller auto-animate=\"true\"}\n\nYou can control layout of multiple outputs with `layout-ncol`:\n\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"|14\"}\n---\ntitle: \"Multiple output layout\"\nformat: \n  dashboard:\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)\n```{r}\n#| title: One cell = one card\n#| layout-ncol: 2\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n\n## Multiple output layout {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"14\"}\n---\ntitle: \"Multiple output layout\"\nformat: \n  dashboard:\n    logo: images/beetle.png\n---\n\n```{r}\nlibrary(ggplot2)\n```{r}\n#| title: One cell = one card\n#| layout-ncol: 2\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/card-multiple-output-layout.png)\n:::\n:::\n\n## Value boxes {.smaller}\n\n::: incremental\n-   Value boxes are a great way to prominently display simple values within a dashboard\n\n-   You can create value boxes in executable cells or plain markdown in divs\n\n-   Value boxes use Bootstrap icons (&lt;https://icons.getbootstrap.com&gt;) and can be set to any color (e.g., with a HEX code) or color alias defined by the theme (we'll get to themes later!)\n\n    | Color alias | Default theme color(s) |\n    |-------------|------------------------|\n    | `primary`   | Blue                   |\n    | `secondary` | Gray                   |\n    | `success`   | Green                  |\n    | `info`      | Bright Blue            |\n    | `warning`   | Yellow/Orange          |\n    | `danger`    | Red                    |\n    | `light`     | Light Gray             |\n    | `dark`      | Black                  |\n:::\n\n## Value boxes\n\n::: {data-id=\"code\"}\n::: r-box\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"|11|13-28|30-38|40-48|50-54|56\"}\n---\ntitle: \"Valueboxes\"\nformat: dashboard\n---\n\n```{r}\nlibrary(ggplot2)\nlibrary(dplyr)\n\nValue boxes\n```{r}\n#| label: calculate-values\nlowest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == min(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n\nhighest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == max(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n  \nrounded_mean_city_mileage &lt;- mpg |&gt;\n  summarize(round(mean(cty), 2)) |&gt;\n  pull()\n```\n```{r}\n#| content: valuebox\n#| title: \"Least efficient\"\n#| icon: fuel-pump-fill\n#| color: danger\nlist(\n  value = paste(lowest_mileage_cty, \"mpg\")\n)\n```\n```{r}\n#| content: valuebox\n#| title: \"Most efficient\"\nlist(\n  icon = \"fuel-pump\",\n  color = \"success\",\n  value = paste(highest_mileage_cty, \"mpg\")\n)\n```\n\nAverage city mileage\n{r} rounded_mean_city_mileage mpg\n\n\n\nPlots\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n## Value boxes {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n::: r-box\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"30-38,40-48,50-54\"}\n---\ntitle: \"Valueboxes\"\nformat: dashboard\n---\n\n```{r}\nlibrary(ggplot2)\nlibrary(dplyr)\n\n\nValue boxes\n```{r}\n#| label: calculate-values\nlowest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == min(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n\nhighest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == max(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n  \nrounded_mean_city_mileage &lt;- mpg |&gt;\n  summarize(round(mean(cty), 2)) |&gt;\n  pull()\n```\n```{r}\n#| content: valuebox\n#| title: \"Least efficient\"\n#| icon: fuel-pump-fill\n#| color: danger\nlist(\n  value = paste(lowest_mileage_cty, \"mpg\")\n)\n```\n```{r}\n#| content: valuebox\n#| title: \"Most efficient\"\nlist(\n  icon = \"fuel-pump\",\n  color = \"success\",\n  value = paste(highest_mileage_cty, \"mpg\")\n)\n```\n\nAverage city mileage\n{r} rounded_mean_city_mileage mpg\n\n\n\nPlots\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/valueboxes-r.png)\n:::\n:::\n\n## Value boxes {auto-animate=\"true\"}\n\n::: {data-id=\"code\"}\n::: python-box\n``` {.yaml filename=\"dashboard-py.qmd\" code-line-numbers=\"|11|13-25|27-35|37-45|47-51|53\"}\n---\ntitle: \"Valueboxes\"\nformat: dashboard\n---\n\n```{python}\nfrom plotnine import ggplot, aes, geom_point, geom_bar\nfrom plotnine.data import mpg\n\n\nValue boxes\n```{python}\n#| label: calculate-values\nlowest_mileage_index = mpg['cty'].idxmin()\nlowest_mileage_car = mpg.iloc[lowest_mileage_index]\nlowest_mileage_cty = mpg.loc[lowest_mileage_index, 'cty']\n\nhighest_mileage_index = mpg['cty'].idxmax()\nhighest_mileage_car = mpg.iloc[highest_mileage_index]\nhighest_mileage_cty = mpg.loc[highest_mileage_index, 'cty']\n\nmean_city_mileage = mpg['cty'].mean()\nrounded_mean_city_mileage = round(mean_city_mileage, 2)\n```\n```{python}\n#| content: valuebox\n#| title: \"Least efficient\"\n#| icon: fuel-pump-fill\n#| color: danger\ndict(\n  value = str(f\"{lowest_mileage_cty} mpg\")\n)\n```\n```{python}\n#| content: valuebox\n#| title: \"Most efficient\"\ndict(\n  icon = \"fuel-pump\",\n  color = \"success\",\n  value = str(f\"{highest_mileage_cty} mpg\")\n)\n```\n\nAverage city mileage\n{python} str(rounded_mean_city_mileage) mpg\n\n\n\nPlots\n```{python}\n#| title: Highway vs. city mileage\n(\n    ggplot(mpg, aes(x = \"cty\", y = \"hwy\"))\n    + geom_point()\n)\n```\n```{python}\n#| title: Drive types\n(\n    ggplot(mpg, aes(x = \"drv\"))\n    + geom_bar()\n)\n```\n:::\n:::\n\n## Value boxes {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n::: python-box\n``` {.yaml filename=\"dashboard-py.qmd\" code-line-numbers=\"27-35,37-45,47-51\"}\n---\ntitle: \"Valueboxes\"\nformat: dashboard\n---\n\n```{python}\nfrom plotnine import ggplot, aes, geom_point, geom_bar\nfrom plotnine.data import mpg\n\n\nValue boxes\n```{python}\n#| label: calculate-values\nlowest_mileage_index = mpg['cty'].idxmin()\nlowest_mileage_car = mpg.iloc[lowest_mileage_index]\nlowest_mileage_cty = mpg.loc[lowest_mileage_index, 'cty']\n\nhighest_mileage_index = mpg['cty'].idxmax()\nhighest_mileage_car = mpg.iloc[highest_mileage_index]\nhighest_mileage_cty = mpg.loc[highest_mileage_index, 'cty']\n\nmean_city_mileage = mpg['cty'].mean()\nrounded_mean_city_mileage = round(mean_city_mileage, 2)\n```\n```{python}\n#| content: valuebox\n#| title: \"Least efficient\"\n#| icon: fuel-pump-fill\n#| color: danger\ndict(\n  value = str(f\"{lowest_mileage_cty} mpg\")\n)\n```\n```{python}\n#| content: valuebox\n#| title: \"Most efficient\"\ndict(\n  icon = \"fuel-pump\",\n  color = \"success\",\n  value = str(f\"{highest_mileage_cty} mpg\")\n)\n```\n\nAverage city mileage\n{python} str(rounded_mean_city_mileage) mpg\n\n\n\nPlots\n```{python}\n#| title: Highway vs. city mileage\n(\n    ggplot(mpg, aes(x = \"cty\", y = \"hwy\"))\n    + geom_point()\n)\n```\n```{python}\n#| title: Drive types\n(\n    ggplot(mpg, aes(x = \"drv\"))\n    + geom_bar()\n)\n```\n```\n\n\n::: :::\n\n\n:::"
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#value-boxes",
+    "href": "2-dashboard-components/index.html#value-boxes",
+    "title": "Quarto DashboardsComponents",
+    "section": "Value boxes",
+    "text": "Value boxes\n```{r}\n#| label: calculate-values\nlowest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == min(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n\nhighest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == max(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n  \nrounded_mean_city_mileage &lt;- mpg |&gt;\n  summarize(round(mean(cty), 2)) |&gt;\n  pull()\n```\n```{r}\n#| content: valuebox\n#| title: \"Least efficient\"\n#| icon: fuel-pump-fill\n#| color: danger\nlist(\n  value = paste(lowest_mileage_cty, \"mpg\")\n)\n```\n```{r}\n#| content: valuebox\n#| title: \"Most efficient\"\nlist(\n  icon = \"fuel-pump\",\n  color = \"success\",\n  value = paste(highest_mileage_cty, \"mpg\")\n)\n```\n\nAverage city mileage\n{r} rounded_mean_city_mileage mpg"
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#plots-9",
+    "href": "2-dashboard-components/index.html#plots-9",
+    "title": "Quarto DashboardsComponents",
+    "section": "Plots",
+    "text": "Plots\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n## Value boxes {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n::: r-box\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"30-38,40-48,50-54\"}\n---\ntitle: \"Valueboxes\"\nformat: dashboard\n---\n\n```{r}\nlibrary(ggplot2)\nlibrary(dplyr)"
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#value-boxes-1",
+    "href": "2-dashboard-components/index.html#value-boxes-1",
+    "title": "Quarto DashboardsComponents",
+    "section": "Value boxes",
+    "text": "Value boxes\n```{r}\n#| label: calculate-values\nlowest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == min(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n\nhighest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == max(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n  \nrounded_mean_city_mileage &lt;- mpg |&gt;\n  summarize(round(mean(cty), 2)) |&gt;\n  pull()\n```\n```{r}\n#| content: valuebox\n#| title: \"Least efficient\"\n#| icon: fuel-pump-fill\n#| color: danger\nlist(\n  value = paste(lowest_mileage_cty, \"mpg\")\n)\n```\n```{r}\n#| content: valuebox\n#| title: \"Most efficient\"\nlist(\n  icon = \"fuel-pump\",\n  color = \"success\",\n  value = paste(highest_mileage_cty, \"mpg\")\n)\n```\n\nAverage city mileage\n{r} rounded_mean_city_mileage mpg"
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#plots-10",
+    "href": "2-dashboard-components/index.html#plots-10",
+    "title": "Quarto DashboardsComponents",
+    "section": "Plots",
+    "text": "Plots\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/valueboxes-r.png)\n:::\n:::\n\n## Value boxes {auto-animate=\"true\"}\n\n::: {data-id=\"code\"}\n::: python-box\n``` {.yaml filename=\"dashboard-py.qmd\" code-line-numbers=\"|11|13-25|27-35|37-45|47-51|53\"}\n---\ntitle: \"Valueboxes\"\nformat: dashboard\n---\n\n```{python}\nfrom plotnine import ggplot, aes, geom_point, geom_bar\nfrom plotnine.data import mpg"
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#value-boxes-2",
+    "href": "2-dashboard-components/index.html#value-boxes-2",
+    "title": "Quarto DashboardsComponents",
+    "section": "Value boxes",
+    "text": "Value boxes\n```{python}\n#| label: calculate-values\nlowest_mileage_index = mpg['cty'].idxmin()\nlowest_mileage_car = mpg.iloc[lowest_mileage_index]\nlowest_mileage_cty = mpg.loc[lowest_mileage_index, 'cty']\n\nhighest_mileage_index = mpg['cty'].idxmax()\nhighest_mileage_car = mpg.iloc[highest_mileage_index]\nhighest_mileage_cty = mpg.loc[highest_mileage_index, 'cty']\n\nmean_city_mileage = mpg['cty'].mean()\nrounded_mean_city_mileage = round(mean_city_mileage, 2)\n```\n```{python}\n#| content: valuebox\n#| title: \"Least efficient\"\n#| icon: fuel-pump-fill\n#| color: danger\ndict(\n  value = str(f\"{lowest_mileage_cty} mpg\")\n)\n```\n```{python}\n#| content: valuebox\n#| title: \"Most efficient\"\ndict(\n  icon = \"fuel-pump\",\n  color = \"success\",\n  value = str(f\"{highest_mileage_cty} mpg\")\n)\n```\n\nAverage city mileage\n{python} str(rounded_mean_city_mileage) mpg"
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#plots-11",
+    "href": "2-dashboard-components/index.html#plots-11",
+    "title": "Quarto DashboardsComponents",
+    "section": "Plots",
+    "text": "Plots\n```{python}\n#| title: Highway vs. city mileage\n(\n    ggplot(mpg, aes(x = \"cty\", y = \"hwy\"))\n    + geom_point()\n)\n```\n```{python}\n#| title: Drive types\n(\n    ggplot(mpg, aes(x = \"drv\"))\n    + geom_bar()\n)\n```\n:::\n:::\n\n## Value boxes {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n::: python-box\n``` {.yaml filename=\"dashboard-py.qmd\" code-line-numbers=\"27-35,37-45,47-51\"}\n---\ntitle: \"Valueboxes\"\nformat: dashboard\n---\n\n```{python}\nfrom plotnine import ggplot, aes, geom_point, geom_bar\nfrom plotnine.data import mpg"
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#value-boxes-3",
+    "href": "2-dashboard-components/index.html#value-boxes-3",
+    "title": "Quarto DashboardsComponents",
+    "section": "Value boxes",
+    "text": "Value boxes\n```{python}\n#| label: calculate-values\nlowest_mileage_index = mpg['cty'].idxmin()\nlowest_mileage_car = mpg.iloc[lowest_mileage_index]\nlowest_mileage_cty = mpg.loc[lowest_mileage_index, 'cty']\n\nhighest_mileage_index = mpg['cty'].idxmax()\nhighest_mileage_car = mpg.iloc[highest_mileage_index]\nhighest_mileage_cty = mpg.loc[highest_mileage_index, 'cty']\n\nmean_city_mileage = mpg['cty'].mean()\nrounded_mean_city_mileage = round(mean_city_mileage, 2)\n```\n```{python}\n#| content: valuebox\n#| title: \"Least efficient\"\n#| icon: fuel-pump-fill\n#| color: danger\ndict(\n  value = str(f\"{lowest_mileage_cty} mpg\")\n)\n```\n```{python}\n#| content: valuebox\n#| title: \"Most efficient\"\ndict(\n  icon = \"fuel-pump\",\n  color = \"success\",\n  value = str(f\"{highest_mileage_cty} mpg\")\n)\n```\n\nAverage city mileage\n{python} str(rounded_mean_city_mileage) mpg"
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#plots-12",
+    "href": "2-dashboard-components/index.html#plots-12",
+    "title": "Quarto DashboardsComponents",
+    "section": "Plots",
+    "text": "Plots\n```{python}\n#| title: Highway vs. city mileage\n(\n    ggplot(mpg, aes(x = \"cty\", y = \"hwy\"))\n    + geom_point()\n)\n```\n```{python}\n#| title: Drive types\n(\n    ggplot(mpg, aes(x = \"drv\"))\n    + geom_bar()\n)\n```\n```"
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#markdown-text",
+    "href": "2-dashboard-components/index.html#markdown-text",
+    "title": "Quarto DashboardsComponents",
+    "section": "Markdown text",
+    "text": "Markdown text\n\n\nYou can include markdown text anywhere within a dashboard\nMarkdown text is automatically placed in cards, but you can also explicitly put them in cards with fenced divs, and add titles to cards\n::: {.card title=\"Title goes here\"}\nText goes here.\n:::\nYou can place markdown text and other cell output in a single card as well\n::: {.card title=\"Title goes here\"}\nText goes here.\n\n```{r}\n# code generating output goes here\n```\n:::"
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#start",
+    "href": "2-dashboard-components/index.html#start",
+    "title": "Quarto DashboardsComponents",
+    "section": "🏁 Start",
+    "text": "🏁 Start\nClone the GitHub repo mine-cetinkaya-rundel/olympicdash (https://github.com/mine-cetinkaya-rundel/olympicdash) and work on…\n\nolympicdash-r-2.qmd\n\n\nolympicdash-py-2.qmd"
+  },
+  {
+    "objectID": "2-dashboard-components/index.html#goal",
+    "href": "2-dashboard-components/index.html#goal",
+    "title": "Quarto DashboardsComponents",
+    "section": "🎯 Goal",
+    "text": "🎯 Goal\nYour goal is to create one of the following dashboards, and then deploy to QuartoPub.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nquarto.org"
+  },
+  {
+    "objectID": "3-theming-styling/index.html#bootswatch-themes",
+    "href": "3-theming-styling/index.html#bootswatch-themes",
+    "title": "Quarto DashboardsTheming and styling",
+    "section": "Bootswatch themes",
+    "text": "Bootswatch themes\nQuarto dashboards can be styled with one of the 25 themes from the Bootswatch project:\n\n\n\ndashboard-r.qmd\n\n---\ntitle: \"Bootswatch themes\"\nformat: \n  dashboard:\n    theme: quartz\n---\n\n```{r}\nlibrary(ggplot2)\nlibrary(dplyr)\n\n\nValue boxes\n```{r}\n#| label: calculate-values\nlowest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == min(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n\nhighest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == max(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n  \nrounded_mean_city_mileage &lt;- mpg |&gt;\n  summarize(round(mean(cty), 2)) |&gt;\n  pull()\n```\n```{r}\n#| content: valuebox\n#| title: \"Least efficient\"\n#| icon: fuel-pump-fill\n#| color: danger\nlist(\n  value = paste(lowest_mileage_cty, \"mpg\")\n)\n```\n```{r}\n#| content: valuebox\n#| title: \"Most efficient\"\nlist(\n  icon = \"fuel-pump\",\n  color = \"success\",\n  value = paste(highest_mileage_cty, \"mpg\")\n)\n```\n\nAverage city mileage\n{r} rounded_mean_city_mileage mpg\n\n\n\nPlots\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n\n## Bootswatch themes {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"3-5\"}\n---\ntitle: \"Bootswatch themes\"\nformat: \n  dashboard:\n    theme: quartz\n---\n\n```{r}\nlibrary(ggplot2)\nlibrary(dplyr)\n\n\nValue boxes\n```{r}\n#| label: calculate-values\nlowest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == min(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n\nhighest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == max(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n  \nrounded_mean_city_mileage &lt;- mpg |&gt;\n  summarize(round(mean(cty), 2)) |&gt;\n  pull()\n```\n```{r}\n#| content: valuebox\n#| title: \"Least efficient\"\n#| icon: fuel-pump-fill\n#| color: danger\nlist(\n  value = paste(lowest_mileage_cty, \"mpg\")\n)\n```\n```{r}\n#| content: valuebox\n#| title: \"Most efficient\"\nlist(\n  icon = \"fuel-pump\",\n  color = \"success\",\n  value = paste(highest_mileage_cty, \"mpg\")\n)\n```\n\nAverage city mileage\n{r} rounded_mean_city_mileage mpg\n\n\n\nPlots\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/bootswatch.png)\n:::\n:::\n\n## Bootswatch themes\n\n::: {.large .center-align}\n&lt;https://bootswatch.com&gt;\n:::\n\n\n```{=html}\n&lt;iframe src=\"https://bootswatch.com\" title = \"Bootswatch themes\" frameborder=\"1\" height=\"500\" width=\"1000\"&gt;&lt;/iframe&gt;\n\n\nLight and dark mode\nYou can provide a light and dark theme and Quarto will automatically place a light/dark toggle on the navbar:\n\n\n\ndashboard-r.qmd\n\n---\ntitle: \"Light and dark\"\nformat: \n  dashboard:\n    theme:\n      light: flatly\n      dark: darkly\n---\n\n```{r}\nlibrary(ggplot2)\nlibrary(dplyr)\n\n\nValue boxes\n```{r}\n#| label: calculate-values\nlowest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == min(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n\nhighest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == max(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n  \nrounded_mean_city_mileage &lt;- mpg |&gt;\n  summarize(round(mean(cty), 2)) |&gt;\n  pull()\n```\n```{r}\n#| content: valuebox\n#| title: \"Least efficient\"\n#| icon: fuel-pump-fill\n#| color: danger\nlist(\n  value = paste(lowest_mileage_cty, \"mpg\")\n)\n```\n```{r}\n#| content: valuebox\n#| title: \"Most efficient\"\nlist(\n  icon = \"fuel-pump\",\n  color = \"success\",\n  value = paste(highest_mileage_cty, \"mpg\")\n)\n```\n\nAverage city mileage\n{r} rounded_mean_city_mileage mpg\n\n\n\nPlots\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n\n## Light mode {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"6\"}\n---\ntitle: \"Light and dark\"\nformat: \n  dashboard:\n    theme:\n      light: flatly\n      dark: darkly\n---\n\n```{r}\nlibrary(ggplot2)\nlibrary(dplyr)\n\n\nValue boxes\n```{r}\n#| label: calculate-values\nlowest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == min(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n\nhighest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == max(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n  \nrounded_mean_city_mileage &lt;- mpg |&gt;\n  summarize(round(mean(cty), 2)) |&gt;\n  pull()\n```\n```{r}\n#| content: valuebox\n#| title: \"Least efficient\"\n#| icon: fuel-pump-fill\n#| color: danger\nlist(\n  value = paste(lowest_mileage_cty, \"mpg\")\n)\n```\n```{r}\n#| content: valuebox\n#| title: \"Most efficient\"\nlist(\n  icon = \"fuel-pump\",\n  color = \"success\",\n  value = paste(highest_mileage_cty, \"mpg\")\n)\n```\n\nAverage city mileage\n{r} rounded_mean_city_mileage mpg\n\n\n\nPlots\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/light.png)\n:::\n:::\n\n## Dark mode {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"7\"}\n---\ntitle: \"Light and dark\"\nformat: \n  dashboard:\n    theme:\n      light: flatly\n      dark: darkly\n---\n\n```{r}\nlibrary(ggplot2)\nlibrary(dplyr)\n\n\nValue boxes\n```{r}\n#| label: calculate-values\nlowest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == min(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n\nhighest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == max(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n  \nrounded_mean_city_mileage &lt;- mpg |&gt;\n  summarize(round(mean(cty), 2)) |&gt;\n  pull()\n```\n```{r}\n#| content: valuebox\n#| title: \"Least efficient\"\n#| icon: fuel-pump-fill\n#| color: danger\nlist(\n  value = paste(lowest_mileage_cty, \"mpg\")\n)\n```\n```{r}\n#| content: valuebox\n#| title: \"Most efficient\"\nlist(\n  icon = \"fuel-pump\",\n  color = \"success\",\n  value = paste(highest_mileage_cty, \"mpg\")\n)\n```\n\nAverage city mileage\n{r} rounded_mean_city_mileage mpg\n\n\n\nPlots\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/dark.png)\n:::\n:::\n\n## Custom themes\n\n::: incremental\n-   You can create an entirely custom theme and apply it to your dashboard:\n\n    ``` yaml\n    format:\n      theme: style.scss\n    ```\n\n-   Or you can customize an existing Bootswatch theme:\n\n    ``` yaml\n    format:\n      theme:\n        - cosmo\n        - custom.scss\n    ```\n:::\n\n## Custom light SCSS {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"|3-5\"}\n---\ntitle: \"Custom light theme\"\nformat: \n  dashboard:\n    theme: style/custom-light.scss\n---\n\n```{r}\nlibrary(ggplot2)\nlibrary(dplyr)\n\n\nValue boxes\n```{r}\n#| label: calculate-values\nlowest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == min(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n\nhighest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == max(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n  \nrounded_mean_city_mileage &lt;- mpg |&gt;\n  summarize(round(mean(cty), 2)) |&gt;\n  pull()\n```\n```{r}\n#| content: valuebox\n#| title: \"Least efficient\"\n#| icon: fuel-pump-fill\n#| color: danger\nlist(\n  value = paste(lowest_mileage_cty, \"mpg\")\n)\n```\n```{r}\n#| content: valuebox\n#| title: \"Most efficient\"\nlist(\n  icon = \"fuel-pump\",\n  color = \"success\",\n  value = paste(highest_mileage_cty, \"mpg\")\n)\n```\n\nAverage city mileage\n{r} rounded_mean_city_mileage mpg\n\n\n\nPlots\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/custom-light.png)\n:::\n:::\n\n## Custom light SCSS {.smaller}\n\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"|1-7|9-12|14-19\"}\n/*-- scss:defaults --*/\n\n// fonts\n@import 'https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap';\n@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@700&display=swap');\n\n$font-family-sans-serif: \"Atkinson Hyperlegible\";\n\n// colors\n\n$navbar-bg: #0e2635;\n$navbar-fg: #F0F0F0;\n\n/*-- scss:rules --*/\n\n.card-header {\n  background-color: #ae8b2d;\n  color: #F0F0F0;\n}\n\n\n\nCustomizing Bootswatch themes\n\n\n\n\n\ndashboard-r.qmd\n\n---\ntitle: \"Sandstone + Custom light theme\"\nformat: \n  dashboard:\n    theme: \n      - sandstone\n      - style/custom-light.scss\n---\n\n```{r}\nlibrary(ggplot2)\nlibrary(dplyr)\n\n\nValue boxes\n```{r}\n#| label: calculate-values\nlowest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == min(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n\nhighest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == max(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n  \nrounded_mean_city_mileage &lt;- mpg |&gt;\n  summarize(round(mean(cty), 2)) |&gt;\n  pull()\n```\n```{r}\n#| content: valuebox\n#| title: \"Least efficient\"\n#| icon: fuel-pump-fill\n#| color: danger\nlist(\n  value = paste(lowest_mileage_cty, \"mpg\")\n)\n```\n```{r}\n#| content: valuebox\n#| title: \"Most efficient\"\nlist(\n  icon = \"fuel-pump\",\n  color = \"success\",\n  value = paste(highest_mileage_cty, \"mpg\")\n)\n```\n\nAverage city mileage\n{r} rounded_mean_city_mileage mpg\n\n\n\nPlots\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/sandstone-custom-light.png)\n:::\n:::\n\n# Styling\n\n## A unified look\n\n::: incremental\n-   Achieving a unified look for your dashboard requires customizing your dashboard along with your plots and tables\n\n-   Choose colors thare complementary and visually appealing (at least to you) bu also following accessbility best practices\n\n-   Stick to pre-defined, accessible color scales where possible\n:::\n\n## Learn more: Theming Quarto\n\nA lot more to learn on theming all things Quarto!\n\n\n```{=html}\n&lt;iframe src=\"https://quarto.org/docs/dashboards/theming.html\" title = \"Bootswatch themes\" frameborder=\"1\" height=\"500\" width=\"1000\"&gt;&lt;/iframe&gt;\n\n\nLet’s build!\n\n\n\n🏁 Start\nClone the GitHub repo mine-cetinkaya-rundel/olympicdash (https://github.com/mine-cetinkaya-rundel/olympicdash) and work on…\n\nolympicdash-r-3.qmd\n\n\nolympicdash-py-3.qmd\n\n\n\n🎯 Goal\nYour goal is to create one of the following dashboards, and then deploy to QuartoPub.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nquarto.org"
+  },
+  {
+    "objectID": "3-theming-styling/index.html#value-boxes",
+    "href": "3-theming-styling/index.html#value-boxes",
+    "title": "Quarto DashboardsTheming and styling",
+    "section": "Value boxes",
+    "text": "Value boxes\n```{r}\n#| label: calculate-values\nlowest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == min(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n\nhighest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == max(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n  \nrounded_mean_city_mileage &lt;- mpg |&gt;\n  summarize(round(mean(cty), 2)) |&gt;\n  pull()\n```\n```{r}\n#| content: valuebox\n#| title: \"Least efficient\"\n#| icon: fuel-pump-fill\n#| color: danger\nlist(\n  value = paste(lowest_mileage_cty, \"mpg\")\n)\n```\n```{r}\n#| content: valuebox\n#| title: \"Most efficient\"\nlist(\n  icon = \"fuel-pump\",\n  color = \"success\",\n  value = paste(highest_mileage_cty, \"mpg\")\n)\n```\n\nAverage city mileage\n{r} rounded_mean_city_mileage mpg"
+  },
+  {
+    "objectID": "3-theming-styling/index.html#plots",
+    "href": "3-theming-styling/index.html#plots",
+    "title": "Quarto DashboardsTheming and styling",
+    "section": "Plots",
+    "text": "Plots\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n\n## Bootswatch themes {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"3-5\"}\n---\ntitle: \"Bootswatch themes\"\nformat: \n  dashboard:\n    theme: quartz\n---\n\n```{r}\nlibrary(ggplot2)\nlibrary(dplyr)"
+  },
+  {
+    "objectID": "3-theming-styling/index.html#value-boxes-1",
+    "href": "3-theming-styling/index.html#value-boxes-1",
+    "title": "Quarto DashboardsTheming and styling",
+    "section": "Value boxes",
+    "text": "Value boxes\n```{r}\n#| label: calculate-values\nlowest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == min(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n\nhighest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == max(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n  \nrounded_mean_city_mileage &lt;- mpg |&gt;\n  summarize(round(mean(cty), 2)) |&gt;\n  pull()\n```\n```{r}\n#| content: valuebox\n#| title: \"Least efficient\"\n#| icon: fuel-pump-fill\n#| color: danger\nlist(\n  value = paste(lowest_mileage_cty, \"mpg\")\n)\n```\n```{r}\n#| content: valuebox\n#| title: \"Most efficient\"\nlist(\n  icon = \"fuel-pump\",\n  color = \"success\",\n  value = paste(highest_mileage_cty, \"mpg\")\n)\n```\n\nAverage city mileage\n{r} rounded_mean_city_mileage mpg"
+  },
+  {
+    "objectID": "3-theming-styling/index.html#plots-1",
+    "href": "3-theming-styling/index.html#plots-1",
+    "title": "Quarto DashboardsTheming and styling",
+    "section": "Plots",
+    "text": "Plots\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/bootswatch.png)\n:::\n:::\n\n## Bootswatch themes\n\n::: {.large .center-align}\n&lt;https://bootswatch.com&gt;\n:::\n\n\n```{=html}\n&lt;iframe src=\"https://bootswatch.com\" title = \"Bootswatch themes\" frameborder=\"1\" height=\"500\" width=\"1000\"&gt;&lt;/iframe&gt;"
+  },
+  {
+    "objectID": "3-theming-styling/index.html#light-and-dark-mode",
+    "href": "3-theming-styling/index.html#light-and-dark-mode",
+    "title": "Quarto DashboardsTheming and styling",
+    "section": "Light and dark mode",
+    "text": "Light and dark mode\nYou can provide a light and dark theme and Quarto will automatically place a light/dark toggle on the navbar:\n\n\n\ndashboard-r.qmd\n\n---\ntitle: \"Light and dark\"\nformat: \n  dashboard:\n    theme:\n      light: flatly\n      dark: darkly\n---\n\n```{r}\nlibrary(ggplot2)\nlibrary(dplyr)\n\n\nValue boxes\n```{r}\n#| label: calculate-values\nlowest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == min(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n\nhighest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == max(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n  \nrounded_mean_city_mileage &lt;- mpg |&gt;\n  summarize(round(mean(cty), 2)) |&gt;\n  pull()\n```\n```{r}\n#| content: valuebox\n#| title: \"Least efficient\"\n#| icon: fuel-pump-fill\n#| color: danger\nlist(\n  value = paste(lowest_mileage_cty, \"mpg\")\n)\n```\n```{r}\n#| content: valuebox\n#| title: \"Most efficient\"\nlist(\n  icon = \"fuel-pump\",\n  color = \"success\",\n  value = paste(highest_mileage_cty, \"mpg\")\n)\n```\n\nAverage city mileage\n{r} rounded_mean_city_mileage mpg\n\n\n\nPlots\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n\n## Light mode {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"6\"}\n---\ntitle: \"Light and dark\"\nformat: \n  dashboard:\n    theme:\n      light: flatly\n      dark: darkly\n---\n\n```{r}\nlibrary(ggplot2)\nlibrary(dplyr)\n\n\nValue boxes\n```{r}\n#| label: calculate-values\nlowest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == min(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n\nhighest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == max(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n  \nrounded_mean_city_mileage &lt;- mpg |&gt;\n  summarize(round(mean(cty), 2)) |&gt;\n  pull()\n```\n```{r}\n#| content: valuebox\n#| title: \"Least efficient\"\n#| icon: fuel-pump-fill\n#| color: danger\nlist(\n  value = paste(lowest_mileage_cty, \"mpg\")\n)\n```\n```{r}\n#| content: valuebox\n#| title: \"Most efficient\"\nlist(\n  icon = \"fuel-pump\",\n  color = \"success\",\n  value = paste(highest_mileage_cty, \"mpg\")\n)\n```\n\nAverage city mileage\n{r} rounded_mean_city_mileage mpg\n\n\n\nPlots\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/light.png)\n:::\n:::\n\n## Dark mode {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"7\"}\n---\ntitle: \"Light and dark\"\nformat: \n  dashboard:\n    theme:\n      light: flatly\n      dark: darkly\n---\n\n```{r}\nlibrary(ggplot2)\nlibrary(dplyr)\n\n\nValue boxes\n```{r}\n#| label: calculate-values\nlowest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == min(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n\nhighest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == max(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n  \nrounded_mean_city_mileage &lt;- mpg |&gt;\n  summarize(round(mean(cty), 2)) |&gt;\n  pull()\n```\n```{r}\n#| content: valuebox\n#| title: \"Least efficient\"\n#| icon: fuel-pump-fill\n#| color: danger\nlist(\n  value = paste(lowest_mileage_cty, \"mpg\")\n)\n```\n```{r}\n#| content: valuebox\n#| title: \"Most efficient\"\nlist(\n  icon = \"fuel-pump\",\n  color = \"success\",\n  value = paste(highest_mileage_cty, \"mpg\")\n)\n```\n\nAverage city mileage\n{r} rounded_mean_city_mileage mpg\n\n\n\nPlots\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/dark.png)\n:::\n:::\n\n## Custom themes\n\n::: incremental\n-   You can create an entirely custom theme and apply it to your dashboard:\n\n    ``` yaml\n    format:\n      theme: style.scss\n    ```\n\n-   Or you can customize an existing Bootswatch theme:\n\n    ``` yaml\n    format:\n      theme:\n        - cosmo\n        - custom.scss\n    ```\n:::\n\n## Custom light SCSS {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"|3-5\"}\n---\ntitle: \"Custom light theme\"\nformat: \n  dashboard:\n    theme: style/custom-light.scss\n---\n\n```{r}\nlibrary(ggplot2)\nlibrary(dplyr)\n\n\nValue boxes\n```{r}\n#| label: calculate-values\nlowest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == min(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n\nhighest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == max(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n  \nrounded_mean_city_mileage &lt;- mpg |&gt;\n  summarize(round(mean(cty), 2)) |&gt;\n  pull()\n```\n```{r}\n#| content: valuebox\n#| title: \"Least efficient\"\n#| icon: fuel-pump-fill\n#| color: danger\nlist(\n  value = paste(lowest_mileage_cty, \"mpg\")\n)\n```\n```{r}\n#| content: valuebox\n#| title: \"Most efficient\"\nlist(\n  icon = \"fuel-pump\",\n  color = \"success\",\n  value = paste(highest_mileage_cty, \"mpg\")\n)\n```\n\nAverage city mileage\n{r} rounded_mean_city_mileage mpg\n\n\n\nPlots\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/custom-light.png)\n:::\n:::\n\n## Custom light SCSS {.smaller}\n\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"|1-7|9-12|14-19\"}\n/*-- scss:defaults --*/\n\n// fonts\n@import 'https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap';\n@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@700&display=swap');\n\n$font-family-sans-serif: \"Atkinson Hyperlegible\";\n\n// colors\n\n$navbar-bg: #0e2635;\n$navbar-fg: #F0F0F0;\n\n/*-- scss:rules --*/\n\n.card-header {\n  background-color: #ae8b2d;\n  color: #F0F0F0;\n}\n\n\n\nCustomizing Bootswatch themes\n\n\n\n\n\ndashboard-r.qmd\n\n---\ntitle: \"Sandstone + Custom light theme\"\nformat: \n  dashboard:\n    theme: \n      - sandstone\n      - style/custom-light.scss\n---\n\n```{r}\nlibrary(ggplot2)\nlibrary(dplyr)\n\n\nValue boxes\n```{r}\n#| label: calculate-values\nlowest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == min(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n\nhighest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == max(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n  \nrounded_mean_city_mileage &lt;- mpg |&gt;\n  summarize(round(mean(cty), 2)) |&gt;\n  pull()\n```\n```{r}\n#| content: valuebox\n#| title: \"Least efficient\"\n#| icon: fuel-pump-fill\n#| color: danger\nlist(\n  value = paste(lowest_mileage_cty, \"mpg\")\n)\n```\n```{r}\n#| content: valuebox\n#| title: \"Most efficient\"\nlist(\n  icon = \"fuel-pump\",\n  color = \"success\",\n  value = paste(highest_mileage_cty, \"mpg\")\n)\n```\n\nAverage city mileage\n{r} rounded_mean_city_mileage mpg\n\n\n\nPlots\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/sandstone-custom-light.png)\n:::\n:::\n\n# Styling\n\n## A unified look\n\n::: incremental\n-   Achieving a unified look for your dashboard requires customizing your dashboard along with your plots and tables\n\n-   Choose colors thare complementary and visually appealing (at least to you) bu also following accessbility best practices\n\n-   Stick to pre-defined, accessible color scales where possible\n:::\n\n## Learn more: Theming Quarto\n\nA lot more to learn on theming all things Quarto!\n\n\n```{=html}\n&lt;iframe src=\"https://quarto.org/docs/dashboards/theming.html\" title = \"Bootswatch themes\" frameborder=\"1\" height=\"500\" width=\"1000\"&gt;&lt;/iframe&gt;\n\n\nLet’s build!\n\n\n\n🏁 Start\nClone the GitHub repo mine-cetinkaya-rundel/olympicdash (https://github.com/mine-cetinkaya-rundel/olympicdash) and work on…\n\nolympicdash-r-3.qmd\n\n\nolympicdash-py-3.qmd\n\n\n\n🎯 Goal\nYour goal is to create one of the following dashboards, and then deploy to QuartoPub.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nquarto.org"
+  },
+  {
+    "objectID": "3-theming-styling/index.html#value-boxes-2",
+    "href": "3-theming-styling/index.html#value-boxes-2",
+    "title": "Quarto DashboardsTheming and styling",
+    "section": "Value boxes",
+    "text": "Value boxes\n```{r}\n#| label: calculate-values\nlowest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == min(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n\nhighest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == max(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n  \nrounded_mean_city_mileage &lt;- mpg |&gt;\n  summarize(round(mean(cty), 2)) |&gt;\n  pull()\n```\n```{r}\n#| content: valuebox\n#| title: \"Least efficient\"\n#| icon: fuel-pump-fill\n#| color: danger\nlist(\n  value = paste(lowest_mileage_cty, \"mpg\")\n)\n```\n```{r}\n#| content: valuebox\n#| title: \"Most efficient\"\nlist(\n  icon = \"fuel-pump\",\n  color = \"success\",\n  value = paste(highest_mileage_cty, \"mpg\")\n)\n```\n\nAverage city mileage\n{r} rounded_mean_city_mileage mpg"
+  },
+  {
+    "objectID": "3-theming-styling/index.html#plots-2",
+    "href": "3-theming-styling/index.html#plots-2",
+    "title": "Quarto DashboardsTheming and styling",
+    "section": "Plots",
+    "text": "Plots\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n\n## Light mode {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"6\"}\n---\ntitle: \"Light and dark\"\nformat: \n  dashboard:\n    theme:\n      light: flatly\n      dark: darkly\n---\n\n```{r}\nlibrary(ggplot2)\nlibrary(dplyr)"
+  },
+  {
+    "objectID": "3-theming-styling/index.html#value-boxes-3",
+    "href": "3-theming-styling/index.html#value-boxes-3",
+    "title": "Quarto DashboardsTheming and styling",
+    "section": "Value boxes",
+    "text": "Value boxes\n```{r}\n#| label: calculate-values\nlowest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == min(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n\nhighest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == max(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n  \nrounded_mean_city_mileage &lt;- mpg |&gt;\n  summarize(round(mean(cty), 2)) |&gt;\n  pull()\n```\n```{r}\n#| content: valuebox\n#| title: \"Least efficient\"\n#| icon: fuel-pump-fill\n#| color: danger\nlist(\n  value = paste(lowest_mileage_cty, \"mpg\")\n)\n```\n```{r}\n#| content: valuebox\n#| title: \"Most efficient\"\nlist(\n  icon = \"fuel-pump\",\n  color = \"success\",\n  value = paste(highest_mileage_cty, \"mpg\")\n)\n```\n\nAverage city mileage\n{r} rounded_mean_city_mileage mpg"
+  },
+  {
+    "objectID": "3-theming-styling/index.html#plots-3",
+    "href": "3-theming-styling/index.html#plots-3",
+    "title": "Quarto DashboardsTheming and styling",
+    "section": "Plots",
+    "text": "Plots\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/light.png)\n:::\n:::\n\n## Dark mode {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"7\"}\n---\ntitle: \"Light and dark\"\nformat: \n  dashboard:\n    theme:\n      light: flatly\n      dark: darkly\n---\n\n```{r}\nlibrary(ggplot2)\nlibrary(dplyr)"
+  },
+  {
+    "objectID": "3-theming-styling/index.html#value-boxes-4",
+    "href": "3-theming-styling/index.html#value-boxes-4",
+    "title": "Quarto DashboardsTheming and styling",
+    "section": "Value boxes",
+    "text": "Value boxes\n```{r}\n#| label: calculate-values\nlowest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == min(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n\nhighest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == max(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n  \nrounded_mean_city_mileage &lt;- mpg |&gt;\n  summarize(round(mean(cty), 2)) |&gt;\n  pull()\n```\n```{r}\n#| content: valuebox\n#| title: \"Least efficient\"\n#| icon: fuel-pump-fill\n#| color: danger\nlist(\n  value = paste(lowest_mileage_cty, \"mpg\")\n)\n```\n```{r}\n#| content: valuebox\n#| title: \"Most efficient\"\nlist(\n  icon = \"fuel-pump\",\n  color = \"success\",\n  value = paste(highest_mileage_cty, \"mpg\")\n)\n```\n\nAverage city mileage\n{r} rounded_mean_city_mileage mpg"
+  },
+  {
+    "objectID": "3-theming-styling/index.html#plots-4",
+    "href": "3-theming-styling/index.html#plots-4",
+    "title": "Quarto DashboardsTheming and styling",
+    "section": "Plots",
+    "text": "Plots\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/dark.png)\n:::\n:::\n\n## Custom themes\n\n::: incremental\n-   You can create an entirely custom theme and apply it to your dashboard:\n\n    ``` yaml\n    format:\n      theme: style.scss\n    ```\n\n-   Or you can customize an existing Bootswatch theme:\n\n    ``` yaml\n    format:\n      theme:\n        - cosmo\n        - custom.scss\n    ```\n:::\n\n## Custom light SCSS {.smaller auto-animate=\"true\"}\n\n::: columns\n::: {.column width=\"40%\"}\n::: {data-id=\"code\"}\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"|3-5\"}\n---\ntitle: \"Custom light theme\"\nformat: \n  dashboard:\n    theme: style/custom-light.scss\n---\n\n```{r}\nlibrary(ggplot2)\nlibrary(dplyr)"
+  },
+  {
+    "objectID": "3-theming-styling/index.html#value-boxes-5",
+    "href": "3-theming-styling/index.html#value-boxes-5",
+    "title": "Quarto DashboardsTheming and styling",
+    "section": "Value boxes",
+    "text": "Value boxes\n```{r}\n#| label: calculate-values\nlowest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == min(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n\nhighest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == max(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n  \nrounded_mean_city_mileage &lt;- mpg |&gt;\n  summarize(round(mean(cty), 2)) |&gt;\n  pull()\n```\n```{r}\n#| content: valuebox\n#| title: \"Least efficient\"\n#| icon: fuel-pump-fill\n#| color: danger\nlist(\n  value = paste(lowest_mileage_cty, \"mpg\")\n)\n```\n```{r}\n#| content: valuebox\n#| title: \"Most efficient\"\nlist(\n  icon = \"fuel-pump\",\n  color = \"success\",\n  value = paste(highest_mileage_cty, \"mpg\")\n)\n```\n\nAverage city mileage\n{r} rounded_mean_city_mileage mpg"
+  },
+  {
+    "objectID": "3-theming-styling/index.html#plots-5",
+    "href": "3-theming-styling/index.html#plots-5",
+    "title": "Quarto DashboardsTheming and styling",
+    "section": "Plots",
+    "text": "Plots\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/custom-light.png)\n:::\n:::\n\n## Custom light SCSS {.smaller}\n\n``` {.yaml filename=\"dashboard-r.qmd\" code-line-numbers=\"|1-7|9-12|14-19\"}\n/*-- scss:defaults --*/\n\n// fonts\n@import 'https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap';\n@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@700&display=swap');\n\n$font-family-sans-serif: \"Atkinson Hyperlegible\";\n\n// colors\n\n$navbar-bg: #0e2635;\n$navbar-fg: #F0F0F0;\n\n/*-- scss:rules --*/\n\n.card-header {\n  background-color: #ae8b2d;\n  color: #F0F0F0;\n}"
+  },
+  {
+    "objectID": "3-theming-styling/index.html#customizing-bootswatch-themes",
+    "href": "3-theming-styling/index.html#customizing-bootswatch-themes",
+    "title": "Quarto DashboardsTheming and styling",
+    "section": "Customizing Bootswatch themes",
+    "text": "Customizing Bootswatch themes\n\n\n\n\n\ndashboard-r.qmd\n\n---\ntitle: \"Sandstone + Custom light theme\"\nformat: \n  dashboard:\n    theme: \n      - sandstone\n      - style/custom-light.scss\n---\n\n```{r}\nlibrary(ggplot2)\nlibrary(dplyr)\n\n\nValue boxes\n```{r}\n#| label: calculate-values\nlowest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == min(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n\nhighest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == max(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n  \nrounded_mean_city_mileage &lt;- mpg |&gt;\n  summarize(round(mean(cty), 2)) |&gt;\n  pull()\n```\n```{r}\n#| content: valuebox\n#| title: \"Least efficient\"\n#| icon: fuel-pump-fill\n#| color: danger\nlist(\n  value = paste(lowest_mileage_cty, \"mpg\")\n)\n```\n```{r}\n#| content: valuebox\n#| title: \"Most efficient\"\nlist(\n  icon = \"fuel-pump\",\n  color = \"success\",\n  value = paste(highest_mileage_cty, \"mpg\")\n)\n```\n\nAverage city mileage\n{r} rounded_mean_city_mileage mpg\n\n\n\nPlots\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/sandstone-custom-light.png)\n:::\n:::\n\n# Styling\n\n## A unified look\n\n::: incremental\n-   Achieving a unified look for your dashboard requires customizing your dashboard along with your plots and tables\n\n-   Choose colors thare complementary and visually appealing (at least to you) bu also following accessbility best practices\n\n-   Stick to pre-defined, accessible color scales where possible\n:::\n\n## Learn more: Theming Quarto\n\nA lot more to learn on theming all things Quarto!\n\n\n```{=html}\n&lt;iframe src=\"https://quarto.org/docs/dashboards/theming.html\" title = \"Bootswatch themes\" frameborder=\"1\" height=\"500\" width=\"1000\"&gt;&lt;/iframe&gt;\n\n\nLet’s build!\n\n\n\n🏁 Start\nClone the GitHub repo mine-cetinkaya-rundel/olympicdash (https://github.com/mine-cetinkaya-rundel/olympicdash) and work on…\n\nolympicdash-r-3.qmd\n\n\nolympicdash-py-3.qmd\n\n\n\n🎯 Goal\nYour goal is to create one of the following dashboards, and then deploy to QuartoPub.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nquarto.org"
+  },
+  {
+    "objectID": "3-theming-styling/index.html#value-boxes-6",
+    "href": "3-theming-styling/index.html#value-boxes-6",
+    "title": "Quarto DashboardsTheming and styling",
+    "section": "Value boxes",
+    "text": "Value boxes\n```{r}\n#| label: calculate-values\nlowest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == min(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n\nhighest_mileage_cty &lt;- mpg |&gt;\n  filter(cty == max(cty)) |&gt;\n  distinct(cty) |&gt;\n  pull(cty)\n  \nrounded_mean_city_mileage &lt;- mpg |&gt;\n  summarize(round(mean(cty), 2)) |&gt;\n  pull()\n```\n```{r}\n#| content: valuebox\n#| title: \"Least efficient\"\n#| icon: fuel-pump-fill\n#| color: danger\nlist(\n  value = paste(lowest_mileage_cty, \"mpg\")\n)\n```\n```{r}\n#| content: valuebox\n#| title: \"Most efficient\"\nlist(\n  icon = \"fuel-pump\",\n  color = \"success\",\n  value = paste(highest_mileage_cty, \"mpg\")\n)\n```\n\nAverage city mileage\n{r} rounded_mean_city_mileage mpg"
+  },
+  {
+    "objectID": "3-theming-styling/index.html#plots-6",
+    "href": "3-theming-styling/index.html#plots-6",
+    "title": "Quarto DashboardsTheming and styling",
+    "section": "Plots",
+    "text": "Plots\n```{r}\n#| title: Highway vs. city mileage\nggplot(mpg, aes(x = cty, y = hwy)) +\n  geom_point()\n```\n```{r}\n#| title: Drive types\nggplot(mpg, aes(x = drv)) +\n  geom_bar()\n```\n:::\n:::\n\n::: {.column width=\"60%\"}\n![](images/sandstone-custom-light.png)\n:::\n:::\n\n# Styling\n\n## A unified look\n\n::: incremental\n-   Achieving a unified look for your dashboard requires customizing your dashboard along with your plots and tables\n\n-   Choose colors thare complementary and visually appealing (at least to you) bu also following accessbility best practices\n\n-   Stick to pre-defined, accessible color scales where possible\n:::\n\n## Learn more: Theming Quarto\n\nA lot more to learn on theming all things Quarto!\n\n\n```{=html}\n&lt;iframe src=\"https://quarto.org/docs/dashboards/theming.html\" title = \"Bootswatch themes\" frameborder=\"1\" height=\"500\" width=\"1000\"&gt;&lt;/iframe&gt;"
+  },
+  {
+    "objectID": "3-theming-styling/index.html#start",
+    "href": "3-theming-styling/index.html#start",
+    "title": "Quarto DashboardsTheming and styling",
+    "section": "🏁 Start",
+    "text": "🏁 Start\nClone the GitHub repo mine-cetinkaya-rundel/olympicdash (https://github.com/mine-cetinkaya-rundel/olympicdash) and work on…\n\nolympicdash-r-3.qmd\n\n\nolympicdash-py-3.qmd"
+  },
+  {
+    "objectID": "3-theming-styling/index.html#goal",
+    "href": "3-theming-styling/index.html#goal",
+    "title": "Quarto DashboardsTheming and styling",
+    "section": "🎯 Goal",
+    "text": "🎯 Goal\nYour goal is to create one of the following dashboards, and then deploy to QuartoPub.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nquarto.org"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Quarto Dashboards",
+    "section": "",
+    "text": "Hello,Quarto Dashboards!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto DashboardsComponents\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto DashboardsTheming and styling\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  }
+]

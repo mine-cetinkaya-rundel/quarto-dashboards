@@ -1,0 +1,7 @@
+---
+listing:
+  contents:
+    - 1-hello-dashboards/index.qmd
+    - 2-dashboard-components/index.qmd
+    - 3-theming-styling/index.qmd
+---
