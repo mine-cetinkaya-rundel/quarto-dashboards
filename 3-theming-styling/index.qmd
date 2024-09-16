@@ -2,6 +2,8 @@
 title: "Quarto Dashboards<br>Theming and styling"
 footer: "[quarto.org](https://quarto.org/)"
 logo: "images/quarto-logo.png"
+image: "images/thumbnail-3.png"
+image-alt: "Two dashboards showing similar content, one with default theme and no custom styling, the other with theming and custom styling added."
 format:
   revealjs:
     theme: ../style/slides.scss

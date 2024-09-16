@@ -2,6 +2,8 @@
 title: "Hello,<br>Quarto Dashboards!"
 footer: "[quarto.org](https://quarto.org/)"
 logo: "images/quarto-logo.png"
+image: "images/thumbnail-1.png"
+image-alt: "An illustration of going from computational languages (R, Python, Julia, and Observable) to dashboards with Quarto."
 format:
   revealjs:
     theme: ../style/slides.scss

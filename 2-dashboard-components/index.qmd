@@ -2,6 +2,8 @@
 title: "Quarto Dashboards<br>Components"
 footer: "[quarto.org](https://quarto.org/)"
 logo: "images/quarto-logo.png"
+image: "images/thumbnail-2.png"
+image-alt: "An illustration of dashboard components including a sidebar, pages, tabs, rows, and columns."
 format:
   revealjs:
     theme: ../style/slides.scss
