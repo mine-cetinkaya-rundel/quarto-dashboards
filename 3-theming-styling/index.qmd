@@ -169,6 +169,12 @@ A lot more to learn on theming all things Quarto!
 ```
 # Let's build!
 
+## Materials
+
+-   Slides for this video: [mine.quarto.pub/quarto-dashboards/3-theming-styling](https://mine.quarto.pub/quarto-dashboards/3-theming-styling/)
+
+-   Source code for slides: [github.com/mine-cetinkaya-rundel/quarto-dashboards](https://github.com/mine-cetinkaya-rundel/quarto-dashboards)
+
 ## 🏁 Start {.smaller}
 
 Clone the GitHub repo `mine-cetinkaya-rundel/olympicdash` (<https://github.com/mine-cetinkaya-rundel/olympicdash>) and work on...

@@ -714,6 +714,12 @@ You can control layout of multiple outputs with `layout-ncol`:
 
 # Let's build!
 
+## Materials
+
+-   Slides for this video: [mine.quarto.pub/quarto-dashboards/2-dashboard-components](https://mine.quarto.pub/quarto-dashboards/2-dashboard-components/)
+
+-   Source code for slides: [github.com/mine-cetinkaya-rundel/quarto-dashboards](https://github.com/mine-cetinkaya-rundel/quarto-dashboards)
+
 ## 🏁 Start {.smaller}
 
 Clone the GitHub repo `mine-cetinkaya-rundel/olympicdash` (<https://github.com/mine-cetinkaya-rundel/olympicdash>) and work on...
