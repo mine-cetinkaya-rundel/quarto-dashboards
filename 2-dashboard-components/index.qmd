@@ -486,7 +486,7 @@ Which of the following cells will become a card in a dashboard?
 :::
 
 ::: columns
-::: {.column width="45%"}
+::: {.column width="50%"}
 a.  
 
 ```{{r}}
@@ -500,7 +500,7 @@ x <- 2
 ```
 :::
 
-::: {.column width="35%"}
+::: {.column width="50%"}
 c.  
 
 ```{{r}}
@@ -515,14 +515,51 @@ d.
 ```
 :::
 
-::: {.column width="20%"}
-![](images/slido.png)
+
 :::
+
+## Pop quiz!
+
+::: your-turn
+Which of the following cells will become a card in a dashboard?
+:::
+
+::: columns
+::: {.column width="50%"}
+a.  
+
+```{{r}}
+library(palmerpenguins)
+```
+
+b.  
+
+```{{r}}
+x <- 2
+```
+:::
+
+::: {.column width="50%"}
+c. [**Results in an output, which will be placed in a card!**]{style="color:#589398;"}
+
+```{{r}}
+plot(cars)
+```
+
+d.  
+
+```{{r}}
+#| output: false
+2 + 2
+```
+:::
+
+
 :::
 
 ## Multiple outputs {.smaller auto-animate="true"}
 
-If a cell generates multiple outputs, they get wrapped in a single cell:
+If a cell generates multiple outputs, they get wrapped in a single card:
 
 ::: {data-id="code"}
 ```` {.yaml filename="dashboard-r.qmd" code-line-numbers="|14-15|17-18"}
