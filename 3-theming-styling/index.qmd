@@ -155,7 +155,7 @@ You can provide a light and dark theme and Quarto will automatically place a lig
 ::: incremental
 -   Achieving a unified look for your dashboard requires customizing your dashboard along with your plots and tables
 
--   Choose colors thare complementary and visually appealing (at least to you) bu also following accessbility best practices
+-   Choose colors that are complementary and visually appealing (at least to you) bu also following accessbility best practices
 
 -   Stick to pre-defined, accessible color scales where possible
 :::
